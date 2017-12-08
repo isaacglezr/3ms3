@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<template id="report_contradef_document">
+    <t t-call="report.external_layout">  
+<!--		<img style="float:right;" src="/employee_contract_report/static/description/3ms.jpg"/>-->
+<!--	<img src="static/description/3ms.jpg"/>-->
+        <div class="page">
+		<span style="float:right;">Puebla, Pue; a <span t-field="doc.create_date" t-field-options='{"format": "d MMMM y"}'></span></span><br/><br/><br/>
+            <div class="oe_structure"/>
+            <h4>
+			<div style="text-align: justify">
+            	<span>
+					<p>
+						<span style="font-weight: bold;">CONTRATO POR TIEMPO DETERMINADO DE PRESTACIÓN DE SERVICIOS PROFESIONALES</span>
+
+ 						QUE CELEBRAN POR UNA PARTE LA SOCIEDAD DENOMINADA
+						<span style="font-weight: bold;"> 3MIND STRATEGIC SA DE CV</span>, EN LO SUCESIVO DENOMINADA COMO
+						<span style="font-weight: bold;"> “EL CLIENTE”</span>, REPRESENTADA EN ESTE ACTO POR
+						<span style="font-weight: bold;"> JOSE LUIS ESPEJEL ESTRADA</span>, Y POR LA OTRA PARTE
+						<span style="font-weight: bold; text-transform: uppercase"> <span t-field="doc.employee_id"/></span>
+						 POR SU PROPIO DERECHO, EN LO SUCESIVO DENOMINADO COMO “EL PROVEEDOR”, AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:
+					</p>
+					<br></br>
+					<br></br>
+						<center><span style="font-weight: bold;">DECLARACIONES</span></center>
+					<br></br>
+					<br></br>
+					
+					<p>
+						<span style="font-weight: bold;">I.- DECLARA “EL PROVEEDOR”, POR SU PROPIO DERECHO Y BAJO PROTESTA DE DECIR VERDAD:</span>					
+						<p>1.   Que es una persona física.</p>
+						<p>2.	Que se encuentra con número de pasaporte<span style="font-weight: bold;" t-field="doc.x_pasaporte"/></p>
+						<p>3.	Que su domicilio fiscal se encuentra ubicado en<span style="font-weight: bold;" t-field="doc.x_direccion"/></p>
+						<p>4.	Que cuenta con la suficiente experiencia, capacidad técnica y habilidad cognoscitiva, así como con la herramienta o equipo necesarios para prestar los servicios objeto del presente Contrato.</p>
+						<p>5.	Que cuenta con los recursos necesarios así como con los conocimientos administrativos así como operativos convenientes y adecuados para la prestación de los servicios que<span style="font-weight: bold;"> “EL CLIENTE”</span> le solicite.</p>
+						<p>6.	Que los recursos humanos que en su caso proporcione a<span style="font-weight: bold;"> “EL CLIENTE”</span> contarán con los conocimientos teóricos, técnicos y prácticos, entre otros, que resulten necesarios e indispensables para la prestación del servicio a que se refiere este Contrato. Además manifiesta de que dichos recursos reciben capacitación periódicamente, por lo que cuentan con la información y experiencia suficiente para ejecutar dichos servicios.</p>
+						<p>7.	Que desea celebrar el presente<span style="font-weight: bold;"> Contrato de Prestación de Servicios Profesionales</span> con<span style="font-weight: bold;"> “EL CLIENTE”</span>, consistente de las actividades que se mencionan de manera enunciativa más no limitativa en la cláusula Segunda de este contrato.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">II.- DECLARA “EL CLIENTE”, POR MEDIO DE SU APODERADA Y BAJO PROTESTA DE DECIR VERDAD:</span>
+						<p>1.	Que es una Sociedad Anónima debidamente constituida conforme a las leyes de la República Mexicana, como consta en la escritura pública 270,661 de fecha 6 de Mayo de 2013, otorgada ante la fe del Lic. Claudio Juan Ramón Hernández de Rubín, Notario Público número 123 del Distrito Federal con ejercicio y residencia en el Distrito Federal.</p>
+						<p>2.	Que su apoderado Jose Luis Espejel Estrada cuenta con las facultades necesarias para la celebración del presente Contrato, tal y como consta en el instrumento público 4979, volumen 77, de fecha diecinueve de septiembre del año dos mil catorce, pasado ante la fe del Lic. Jaime Juárez Hernández, Notario Público número 38 de la ciudad de Puebla, Pue., y que dichas facultades a la fecha no le han sido revocadas, limitadas o modificadas en forma alguna.</p>
+						<p>3.	Que su Domicilio fiscal es el ubicado en avenida Vía Atlixcayotl número 5208 interior 13, en la colonia Atlixcayotl 2000, C.P. 72825, en la ciudad de San Andrés Cholula, Puebla.</p>
+						<p>4.	Que se encuentra inscrita en el Registro Federal de Contribuyentes bajo la clave MST1305028E9.</p>
+						<p>5.	Que su representado desea celebrar el presente<span style="font-weight: bold;"> Contrato de Prestación de Servicios</span> con<span style="font-weight: bold;"> “EL PROVEEDOR”</span>, por los servicios que se señalan de manera enunciativa más no limitativa en la cláusula segunda del presente instrumento.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">III. Declaran ambas partes que:</span>
+						<p>1.	Se reconocen la personalidad y representación con la cual cada una de las partes comparece a la celebración del presente Contrato.</p>
+						<p>2.	Que la celebración del presente Contrato no ha sido afectada por lesión, dolo, error, mala fe o cualquier otro vicio del consentimiento que pudiera invalidarlo, por lo que se obligan a él en todo momento.</p>
+						<p>Expuesto lo anterior, las Partes están de acuerdo en quedar obligadas de conformidad con lo dispuesto por las siguientes:</p>
+					</p>
+					<br></br>
+					<br></br>
+
+						<center><span style="font-weight: bold;">CLÁUSULAS</span></center>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">PRIMERA.- DISPOSICIONES GENERALES.</span>
+						<p>1.1	Los términos que se utilicen en este Contrato con mayúscula tendrán los significados que se les atribuye en este mismo Contrato.</p>
+						<p>1.2	En los casos en que el contexto o la interpretación así lo requiera, todas las palabras y términos definidos aplicados en plural se considerarán usados en singular, y viceversa; el género masculino deberá incluir el femenino y el neutro, y viceversa; y el tiempo presente deberá incluir los tiempos pasados y futuros, y viceversa.</p>
+						<p>1.3	A menos que expresamente se establezca lo contrario, la palabra “incluyendo” o “inclusive” no limita las palabras o términos que la preceden.</p>
+						<p>1.4	Cualquier referencia a Declaraciones, Cláusulas o Anexos se considerará una referencia a declaraciones, cláusulas y anexos del presente Contrato, excepto cuando expresamente se indique lo contrario.</p>
+						<p>1.5	Los encabezados que aparecen al inicio del texto de cada cláusula se insertan únicamente para fines de referencia y no califican ni alteran de forma alguna el sentido de las disposiciones de cada cláusula.  Por lo tanto, dichos encabezados no deberán ser tomados en cuenta para la interpretación del presente Contrato.</p>
+						<p>1.6 	Si cualquiera de las cláusulas o párrafos en éstas, contenidas en este Contrato es declarada inválida, ilegal o carente de coercibilidad por un tribunal con jurisdicción competente, las partes negociarán de buena fe la sustitución de la misma por otra estipulación que sea válida, legal y ejecutable y que persiga el mismo objetivo y finalidad de la original. Sin embargo, en caso de no lograr un acuerdo mutuo, la estipulación correspondiente se considerará como no puesta y no invalidará las cláusulas y párrafos restantes de este instrumento, conservando éstas toda su fuerza legal y vigencia.</p>
+						<p>1.7	Este Contrato, incluyendo sus anexos, constituyen el acuerdo total entre las partes con respecto a la materia objeto del mismo y sustituye todos los acuerdos previos entre las partes, ya sea orales o escritos, que estén en relación con la misma materia. Ninguna modificación, enmienda o suplemento a este Contrato será válido para el propósito que sea, a menos que se haga por escrito y esté firmado por las partes. En el caso de que hubiera inconsistencias entre el Contrato y sus anexos, se aplicarán las disposiciones del presente Contrato.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">SEGUNDA.- PRESTACIÓN DE SERVICIOS.</span>
+						<p>Por virtud del presente Contrato, “EL PROVEEDOR” se obliga a prestar a “EL CLIENTE” o a quien éste último designe, por sí o mediante interpósita persona a su cargo, los servicios que se mencionan a continuación de manera enunciativa mas no limitativa:</p>
+						<p>1.	Consultoría en Administración de Proyectos.</p>
+						<p>2.	Consultoría en Procesos de Negocios.</p>
+						<p>3.	Consultoría en Procesos de Tecnología de la Información.</p>
+						<p>4.	Consultoría en Implementación de Sistemas.</p>
+						<p>5.	Consultoría IT en T24, principalmente en los módulos Mortgage (MG), Loans and Deposits (LD), Account (AC), Teller (TT), Funds Transfer (FT), Limits and Collateral.</p>
+						<p>6.	Ofrecer servicios de asesoría, consultoría y personal para actividades determinadas, los cuales se describirán en anexos al presente contrato cada vez que sean requeridos por parte de “EL CLIENTE” a “EL PROVEEDOR”, sin menoscabo de las estipulaciones contenidas en el presente instrumento y sin que exista algún vínculo, obligación o relación laboral entre “EL CLIENTE” y “EL PROVEEDOR”, así como con el personal que éste último tenga a su cargo y aporte para la realización de actividades.</p>
+						<p>Todos los servicios que se desarrollen se integrarán al presente documento como anexos al mismo de manera consecutiva, estando de conformidad las partes por lo que imprimen su firma en cada uno de ellos para su respectiva acreditación.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">TERCERA.- CAPACITACIÓN.</span>
+						<p>Las partes acuerdan que “EL PROVEEDOR” podrá recibir a criterio y cuenta de “EL CLIENTE”, mencionando sin limitar: cursos, seminarios, diplomados, capacitaciones y adiestramiento, para coadyuvar en su superación personal y profesional; con la condicionante de que “EL PROVEEDOR” a su vez, adquiera el compromiso de compensar las erogaciones que para tal efecto lleve a cabo “EL CLIENTE” en el transcurso del año siguiente en que hubieren sido obtenidas, mediante su trabajo condicional y forzoso en favor de “EL CLIENTE” o de quien este último designe, su pena que de no hacerlo, deberá compensar en forma económica proporcional al tiempo que falte entre la fecha de la capacitación y la fecha en que se cumpliría el año posterior a la recepción de la preparación.</p>
+						<p>Autorizando para tal efecto a “EL CLIENTE” a llevar a cabo las deducciones que se consideren aplicables sobre los adeudos que se tengan en favor de “EL PROVEEDOR” por los servicios prestados a la fecha. De no existir adeudos en su favor, “EL PROVEEDOR” deberá llevar a cabo las compensaciones económicas dentro de los 15 días naturales siguientes a la terminación de la relación contractual, dejando a salvo los derechos que “EL CLIENTE” decidiera ejercer en cualquier materia.</p>
+						<p>Cada constancia, certificado o reconocimiento que se adquiera con motivo de cursos, seminarios, diplomados, capacitaciones y adiestramiento entre otros, deberá constar en documento anexo al presente contrato para justificar la obligación por parte de “EL PROVEEDOR” a resarcir los gastos en que en hubiese invertido “EL CLIENTE” para el crecimiento personal, profesional o intelectual de “EL PROVEEDOR”.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">CUARTA.- CALIDAD EN LA PRESTACIÓN DE LOS SERVICIOS.</span>
+						<p>“EL PROVEEDOR” manifiesta que la prestación de los servicios objeto de este Contrato, será realizada por sí mismo o en su caso por personal que se encuentre a su cargo, razón por la cual garantiza en todo momento el buen resultado de los mismos, asimismo, “EL PROVEEDOR” goza de buena reputación laboral y profesional, por lo que en caso de que durante la prestación de los servicios a que este Contrato se refiere, se presentase algún evento, mencionando sin limitar, “EL PROVEEDOR” será responsable directo por los daños y perjuicios ocasionados por dichas eventualidades.</p>
+						<p>En caso de que por causas imputables a los recursos proporcionados por “EL PROVEEDOR”, “EL SITIO” determinado por “EL CLIENTE” sufriese algún siniestro o eventualidad en la que se dañara y/o destruyera información así como documentación entre otros, propiedad de “EL CLIENTE”, la responsabilidad total recaerá en “EL PROVEEDOR”, el cual se obliga a sacar en paz y a salvo a “EL CLIENTE” de las reclamaciones de cualquier índole que se desprendiesen por tal motivo. Independientemente de lo anterior, “EL CLIENTE” se reserva el derecho de ejercitar las acciones correspondientes.</p>
+					</p>
+					<br></br>
+					
+					<p>
+						<span style="font-weight: bold;">QUINTA.- LUGAR DE PRESTACIÓN DE LOS SERVICIOS.</span>
+						<p>“EL PROVEEDOR” prestará a “EL CLIENTE” los servicios a que se refiere la cláusula Segundad del presente Contrato, en el domicilio que sea designado por “EL CLIENTE”, este domicilio será denominado “EL SITIO”, mismo que podrá ser modificado a convenir de “EL CLIENTE” para los fines que en el presente se precisa.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">SEXTA.- DÍAS HÁBILES.</span>
+						<p>“EL PROVEEDOR” se apegará al calendario bajo el que labora “EL CLIENTE”; siempre y cuando el horario laboral no exceda lo permitido por la ley.</p>
+						<p>Así mismo deberá remitirse a lo establecido en el Anexo de este contrato para tales efectos.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">SÉPTIMA.- CONTRAPRESTACIÓN Y FORMA DE PAGO.</span>
+						<p>Las contraprestaciones podrán ser variables, con dependencia a los servicios y productos contratados, mismos que podrán ser pagados mediante transferencia electrónica a la cuenta designada por “EL PROVEEDOR” o en los términos y condiciones que para tal efecto se precise en documento anexo y firmado por las partes.</p>
+						<p>La tarifa mensual pactada para efecto del presente contrato, será de conformidad con las políticas y escalafones que la empresa tenga hacia el personal que en forma independiente le presta servicios.</p>
+						<p>“EL PROVEEDOR” se obliga a entregar a “EL CLIENTE” dentro de los cinco últimos días naturales de cada mes, el recibo de honorarios correspondiente para el pago de la contraprestación de los servicios aquí pactados, en el entendido que ésta deberá cumplir con los requisitos fiscales señalados por la Ley Vigente y Aplicable en materia fiscal. En caso de que “EL CLIENTE” no esté de acuerdo con los conceptos mencionados en el recibo de honorarios, notificará por escrito o medio electrónico a “EL PROVEEDOR” sobre tales inconformidades con la finalidad de resolver los puntos controvertidos. En caso contrario, “EL CLIENTE” procederá al pago de la contraprestación correspondiente dentro de los treinta días naturales siguientes a la validación del recibo de honorarios.</p>
+						<p>“EL PROVEEDOR” deberá entregar mensualmente, su reporte de actividades que respalden dicha contraprestación, misma que debe estar autorizada y validada por “EL CLIENTE”.</p>
+						<p>En el supuesto de que los Servicios objeto del presente contrato no fueren de la entera satisfacción de “EL CLIENTE”, “EL PROVEEDOR” en este acto acepta y faculta expresamente a “EL CLIENTE” a realizarlas deducciones necesarias y correspondientes sobre el importe de la contraprestación hasta que “EL PROVEEDOR” subsane las deficiencias, errores o ineficacia en los Servicios prestados, independientemente de la facultad de “EL CLIENTE” para dar por terminado de manera anticipada el presente contrato sin responsabilidad ulterior de su parte.</p>
+						<p>Para los casos en que, sin limitar, “EL CLIENTE” solicitase mayor número de servicios o el monto de la contraprestación pretenda ser modificado, entre otras; las partes llevarán a cabo las negociaciones correspondientes que acuerden de tiempo en tiempo, dichas negociaciones deberán constar por escrito y ser anexadas al presente instrumento y formarán parte del mismo.</p>
+						<p>Para las negociaciones referidas en ésta cláusula y cualquier otro asunto operativo entre las partes, estas podrán acordarse y formalizarse por conducto de las personas señaladas como contactos en la cláusula vigésima del presente Contrato.</p>
+					</p>
+					<br></br>
+
+					<p>	
+						<span style="font-weight: bold;">OCTAVA.- GASTO DE VIAJE.</span>
+						<p>Los gastos de hospedaje y viáticos que su en caso se generen por la prestación de servicios fuera de la ciudad de Puebla, deberán estar apegados a la política de Gastos de Viaje vigentes definida por “EL CLIENTE”.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">NOVENA. CONTRIBUCIONES.</span>
+						<p>Las partes contratantes se obligan a pagar cada una por su cuenta, las contribuciones que les correspondan en razón de la presente operación.</p>
+						<p>“EL PROVEEDOR” expedirá recibo de honorarios a “EL CLIENTE” en forma enunciativa más no limitativa por los conceptos que se encuentren previstos en la cláusula segunda que antecede así como en los anexos que para tal efecto se realicen, esto de conformidad con cada una de las etapas que se prevean para la prestación de los servicios, estableciendo desde este momento como regla general que “EL PROVEEDOR” expedirá recibo de honorarios a “EL CLIENTE” en forma mensual, obligándose “EL CLIENTE” a pagar el monto correspondiente de cada una de los recibos a partir de la fecha de recepción de lo(s) correspondiente(s) recibos(s) y en un plazo no mayor a 30 (treinta) días. </p>
+						<p>Cada una de las partes será responsable del cumplimiento de las obligaciones legales, fiscales, administrativas y de cualquier otra índole, que a su cargo se deriven por la celebración del presente Contrato.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA.- VIGENCIA</span>
+						<p>La vigencia del presente Contrato será por tiempo determinado, entrando en vigor a partir de la fecha de su firma y terminando el <span t-field="doc.trial_date_end"/> salvaguardando siempre las obligaciones que por el mismo contraen las partes. </p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA PRIMERA.- TERMINACIÓN Y RESCISIÓN DEL CONTRATO.</span>
+						<p>Las partes de común acuerdo establecen que el presente contrato terminará cuando el objeto para el cual se celebró se haya cumplido; asimismo, establecen ambas partes que podrán dar por terminado el contrato previo acuerdo de voluntades, debiendo existir como requisito el previo aviso y descripción de las causales de recisión, el cual deberá remitirse con una anticipación de 30 (treinta) días hábiles a la fecha en que cualquiera de las partes desee darlo por terminado. Ambas partes deberán aceptar las causas presentadas por alguna de las partes involucradas, signando para tal efecto el documento en que consten dichas circunstancias.</p>
+						<p>A la terminación del presente Contrato, “EL PROVEEDOR” devolverá todos los documentos, materiales o medios donde se contengan los secretos industriales, bancarios, especificaciones y demás información confidencial, materiales y registros a los que haya tenido acceso como consecuencia de la prestación de servicios a que se refiere el presente contrato a “EL CLIENTE”.</p>
+						<p>Son causales de rescisión del contrato sin necesidad de declaración judicial previa, las siguientes:</p>
+						<p>a)	Por incumplimiento de alguna de las partes a cualquiera de las obligaciones pactadas en el presente contrato.</p>
+						<p>b)	En caso de liquidación, suspensión de pagos o quiebra de cualquiera de las partes o cesión de sus bienes en favor de sus acreedores o de embargo fiscal o judicial de éstos.</p>
+						<p>c)	Si alguna de las partes ha proporcionado datos falsos al registrarse o al formular el Contrato, o si durante su vigencia y con motivo de las obligaciones derivadas del mismo, proporcionare información falsa, errónea, o si la información solicitada no se proporcionare o se hiciere en forma extemporánea.</p>
+						<p>d)	El incumplimiento con las políticas de comportamiento, seguridad, identificación, etc. por parte de “EL PROVEEDOR”, sus empleados, funcionarios y/o colaboradores dentro de las instalaciones de “EL CLIENTE” y/o “EL SITIO”.</p>
+						<p>e)	Si las partes subcontratan o ceden los derechos derivados de este Contrato, sin previa autorización de la otra.</p>
+						<p>En términos de lo previsto en el “Convenio de Confidencialidad”, a que se refiere el presente Contrato, las partes acuerdan que a la terminación o rescisión del presente contrato, “EL PROVEEDOR” deberá devolver la información que se encuentre en su poder con motivo de la prestación de los servicios, independientemente de la obligación que ha asumido de destruir las copias que hubiere hecho de la información en términos del citado “Convenio de Confidencialidad”.</p>
+						<p>Las Partes están de acuerdo de que en el supuesto de terminación del presente Contrato por causa imputable a alguna de ellas en los términos establecidos en ésta Cláusula, se procederá de la siguiente forma:</p>
+						<p>a)	Si el incumplimiento fuera imputable a “EL PROVEEDOR” estará obligado a pagar a “EL CLIENTE” los daños y perjuicios que tal incumplimiento le hubiere ocasionado. Sin perjuicio de lo anterior, “EL CLIENTE” estará obligado, como mejor convenga a sus intereses a: (i) pagar a “EL PROVEEDOR” los honorarios y gastos devengados hasta la fecha de dicha terminación o (ii) compensar dichos honorarios y gastos contra los adeudos que “EL PROVEEDOR” tenga con “EL CLIENTE”.</p>
+						<p>b)	Si el incumplimiento fuera imputable a “EL CLIENTE”, éste estará obligado a pagar a “EL PROVEEDOR” únicamente los honorarios y gastos devengados hasta la fecha de la terminación.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA SEGUNDA.- SUBCONTRATACIÓN</span>
+						<p>“EL PROVEEDOR” podrá subcontratar con terceros, en todo o en parte, la prestación de los servicios y el alojamiento de aplicaciones a que se refiere el presente Contrato, con el previo consentimiento por escrito otorgado por “EL CLIENTE”.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA TERCERA.- RESPONSABILIDAD LABORAL</span>
+						<p>Ambas partes expresamente convienen que todo personal que sea designado por “EL PROVEEDOR” para la prestación de los servicios a que este Contrato se refiere, será personal precisamente contratado por “EL PROVEEDOR”, ya que éste último cuenta con los recursos propios suficientes para cumplir con las obligaciones que se deriven de la relación laboral con su personal. En términos del artículo 13 de la Ley Federal del Trabajo, “EL PROVEEDOR” será exclusivamente responsable de las obligaciones laborales que surjan de las relaciones existentes con su personal, tales como salarios, indemnizaciones y riesgos profesionales o cualquier otra obligación o prestación que derive de las citadas relaciones laborales de conformidad con lo estipulado por la Ley Federal del Trabajo, de la Ley del Seguro Social o cualquier otro ordenamiento legal. En ningún caso y por ningún concepto podrá considerarse a “EL CLIENTE” como patrón directo o sustituto del personal de “EL PROVEEDOR”, por lo que “EL PROVEEDOR” se obliga a hacerse responsable de todas las reclamaciones individuales o colectivas que por cualquier razón puedan presentar sus trabajadores, así como las sanciones que pudieran imponerles las autoridades administrativas o judiciales del trabajo y se obliga a liberar y a sacar en paz y a salvo a “EL CLIENTE” frente a toda reclamación, demanda o sanción que su personal o cualquier autoridad pretendiese hacer o fincar en perjuicio de “EL CLIENTE” como consecuencia de la citada relación laboral. Asimismo, entre “EL PROVEEDOR” y “EL CLIENTE” no existe ningún tipo de relación laboral, subordinación o creación de cualquier tipo de sociedad, asociación o franquicia.</p>
+						<p>“EL PROVEEDOR” resarcirá a “EL CLIENTE” en caso de que por cualquier motivo atribuible a “EL PROVEEDOR”, “EL CLIENTE” tuviere que hacer erogaciones por los conceptos mencionados en el punto inmediato anterior, “EL CLIENTE” quedará autorizado para deducir tales cantidades de cualquier pago que tuviere que efectuar a “EL PROVEEDOR”, salvo en el caso de que dichas erogaciones fueran motivadas por cualquier situación imputable a “EL CLIENTE”.</p>
+						<p>“EL CLIENTE” podrá solicitar el cambio del personal que “EL PROVEEDOR” hubiere asignado al proyecto, cuando a juicio de “EL CLIENTE”, dicho personal no reúna los requisitos indispensables de experiencia y profesionalismo para el desempeño en la prestación de los servicios objeto de este Contrato. Dicho cambio de personal será efectuado inmediatamente a partir de la solicitud de “EL CLIENTE”. Por su parte, “EL PROVEEDOR” se compromete a que el personal que sea cambiado deberá reunir la experiencia y profesionalismo suficiente para la debida y pronta prestación de los servicios a que este Contrato se refiere.</p>
+						<p>Asimismo, “EL CLIENTE” podrá cobrar a “EL PROVEEDOR” por los daños y perjuicios ocasionados por las negligencias y/o faltas de cuidado y/o por la mala prestación de los servicios por parte del personal que ésta última haya asignado.</p>
+						<p>“EL CLIENTE” tendrá derecho a solicitar a “EL PROVEEDOR” que retire de inmediato el servicio contratado a aquellas personas que en la ejecución de actividades relacionadas con la prestación del servicio incurran en actos de indisciplina, embriaguez, injurias o malos tratos hacia sus compañeros o hacia personal de “EL CLIENTE”, o por cualquier otra falta de las mencionadas en la Ley Federal del Trabajo,</p>
+						<p>Para los efectos del párrafo anterior, “EL CLIENTE” se obliga a proporcionar a “EL PROVEEDOR” las pruebas fehacientes para sustentar su solicitud. Las pruebas referidas serán analizadas por las partes para determinar la responsabilidad de los involucrados en cualquiera de los supuestos mencionados.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA CUARTA.- NO ASOCIACIÓN.</span>
+						<p>Las partes convienen que el presente Contrato no constituye sociedad o asociación, joint venture o cualquier otra figura similar entre las mismas; por lo que las partes acuerdan que cada una de ellas será responsable de las obligaciones que asuma con cualquier tercero, permaneciendo siempre como entidades legales independientes y sin otra relación que la establecida mediante este contrato.</p>
+					</p>
+					<br></br>
+					
+					<p>
+						<span style="font-weight: bold;">DÉCIMA QUINTA.- INFORMACIÓN CONFIDENCIAL</span>
+						<p>Ambas partes convienen en que toda la información que éstas se transmitan o generen con motivo de la celebración del presente contrato, así como la información y especificaciones técnicas relacionadas con el mismo, serán manejadas como información confidencial sin importar el medio a través del cual sea revelada, por lo que constituyen secretos industriales para las partes.</p>
+						<p>Toda vez que como consecuencia de la prestación del servicio, “EL PROVEEDOR” podrá tener acceso a conceptos denominados como secretos industriales, “EL PROVEEDOR” deberá de guardar absoluta confidencialidad frente a terceros respecto a las labores que desarrolle y a los conocimientos que llegare a adquirir por tal motivo, obligándose a no utilizar dichos conocimientos sino en la forma autorizada por este Contrato. Se anexa al presente Contrato como Anexo “A” un “Convenio de Confidencialidad”, celebrado entre las partes con anterioridad a la celebración del presente instrumento, el cual establece los derechos y obligaciones en materia de confidencialidad que las partes deberán cumplir en términos del mismo.</p>
+						<p>La información confidencial que las partes se proporcionen, únicamente podrá ser utilizada para los fines especificados en este contrato, por lo que no podrán en ningún tiempo, directa o indirectamente, ni a través de terceros y en ninguna forma, proporcionar, transferir, publicar, reproducir o hacer de conocimiento de terceros dicha información confidencial; en caso contrario, la parte que incumpla con esta obligación estará sujeta a las sanciones que la legislación mexicana prevé, así como a pagar los daños y perjuicios que ocasione, reservándose la parte agraviada, en todo momento, la facultad de rescindir el presente contrato.</p>
+						<p>Derivado del material confidencial que se pondrá a disposición de “EL PROVEEDOR” durante la vigencia de este Contrato, el mismo no podrá bajo ninguna circunstancia celebrar contrato o convenio con cualquier tercero, para la prestación de servicios materia del presente contrato durante la vigencia del mismo y dentro de un año posterior a su fecha de terminación.</p>
+						<p>Las partes podrán proporcionar la información confidencial únicamente a su propio personal, siempre que éste tenga la necesidad de conocer dicha información para proceder a realizar los fines especificados en el presente contrato; por tal motivo, cada parte dará instrucciones a su propio personal, en relación con la confidencialidad que deben guardar respecto de la información confidencial y sobre las penalidades a las cuales estarán sujetos en caso de incumplimiento.</p>
+						<p>Ninguna de las partes incurrirá en responsabilidad alguna, cuando la información confidencial que se le haya proporcionado, sea conocida por cualquier tercero, por alguna de las siguientes causas:</p>
+						<p>a.- 	Que la información confidencial sea del dominio público.</p>
+						<p>b.- 	Cuando la información confidencial se haga del dominio público durante la vigencia del presente convenio.</p>
+						<p>c.- 	Cuando el titular de la información confidencial autorice por escrito, a través de la persona debidamente autorizada para tal efecto, que la otra parte difunda la información confidencial sin restricciones a terceros, según lo establezca.</p>
+						<p>d.- 	En caso de que cualquiera de las partes sea obligada por disposición administrativa o por orden judicial a entregar, total o parcialmente, la información confidencial, debiendo comunicarlo por escrito a la otra parte en el momento en que tenga conocimiento del requerimiento correspondiente siempre y cuando se hayan agotado todos los medios legales para evitarlo.</p>
+						<p>Cada una de las partes reconoce y acepta que la información confidencial que haya recibido por cualquier medio o forma y en cualquier momento, así como aquella que en lo futuro reciba conforme al presente contrato, es y continuará siendo propiedad exclusiva de la parte que la emita.</p>
+						<p>Cada una de las partes se obliga a devolver la información confidencial en un término de cinco (5) días naturales contados a partir de la fecha en que ocurra cualquiera de los siguientes eventos:</p>
+						<p>a.-	A partir de la fecha en que la otra parte se lo solicite.</p>
+						<p>b.-	A partir de la fecha de terminación, rescisión o resolución del presente contrato.</p>
+						<p>c.-	A partir de la fecha de terminación de la relación de negocios entre las partes, por cualquier causa.</p>
+						<p>Por lo anterior, ninguna de las partes podrá retener o conservar indebidamente la información confidencial que le haya sido proporcionada conforme al presente contrato y no podrá divulgar dicha información confidencial, por un periodo de 10 (diez) años contados a partir de la fecha de terminación, rescisión o resolución del presente contrato.</p>
+						<p>A efecto de que “EL PROVEEDOR” pueda prestar eficientemente los servicios a que se refiere el presente Contrato, “EL CLIENTE” queda obligado a proporcionar a “EL PROVEEDOR” la información que requiera en el formato acordado por ambas partes y en condiciones de ser procesada, en el entendido de que tal información será resguardada por “EL PROVEEDOR” bajo la más estricta confidencialidad y por ningún motivo deberá salir de las instalaciones donde se prestará el servicio, salvo acuerdo previo entre las partes.</p>
+						<p>Sin perjuicio de lo anterior, cada una de las partes se obliga a abstenerse de divulgar, revelar datos, especificaciones técnicas, secretos, métodos, sistemas y en general cualquier mecanismo o dato relacionado con la tecnología e información a la cual, en virtud de éste contrato, lleguen a tener acceso o sea revelada de cualquier forma por alguna de las partes.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA SEXTA.- DERECHOS DE PROPIEDAD INTELECTUAL.</span>
+						<p>“EL PROVEEDOR” indemnizará, defenderá, mantendrá en paz y sacará a salvo a su costa a “EL CLIENTE”, sus subsidiarias, y a sus respectivos directivos, funcionarios, empleados y agentes, de y contra cualquier reclamación o demanda (incluyendo penalizaciones, gastos y honorarios de abogados incurridos con relación a las reclamaciones, juicios, etc.), que llegaren a promoverse en contra de los mismos, motivada por la transgresión a propiedad industrial o intelectual, así como cualquier derecho de tercero como consecuencia del uso o venta de bienes.</p>
+						<p>Cada una de las partes es la única titular de sus derechos de propiedad intelectual que de manera directa o indirecta le correspondan por lo cual, el uso por parte de la otra parte de cualquiera de las marcas, diseños, logotipos o emblema de los cuales sea titular deberá ser autorizado previamente y por escrito por ésta. La contravención a lo señalado en la presente Cláusula constituirá una violación a los derechos de propiedad intelectual de la parte afectada, y dará lugar al pago de los daños y perjuicios que se causen a dicha parte afectada.</p>
+						<p>Las partes garantizan que los derechos de propiedad industrial o intelectual que puedan quedar implícitos dentro de este Contrato, no violan ninguna disposición gubernamental, ninguna ley o reglamento vigente ni tampoco ningún derecho de propiedad industrial e intelectual de terceros, por lo que en caso de que algún tercero inicie en contra de cualquiera de las partes, alguna denuncia, querella, demanda, juicio o procedimiento judicial o administrativo, la otra parte se compromete a sacar en paz y a salvo los intereses de la parte afectada. </p>
+						<p>Ambas partes convienen que ninguna de ellas adquiere por virtud del presente Contrato derecho alguno sobre las marcas de la otra, aceptando en este acto que serán absolutamente responsables por los daños y perjuicios que pueda sufrir la otra parte en sus derechos de propiedad intelectual.</p>
+						<p>Por lo anterior, en caso de terminación o rescisión de este Contrato, por cualquier causa de manera inmediata y sin requerimiento judicial o extra judicial, las partes se abstendrán de usar las marcas de su contraparte.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA SEPTIMA.- CAUSAS DE FUERZA MAYOR.</span>
+						<p>Las partes no serán responsables de las obligaciones que a su cargo se desprendan del presente Contrato, cuando se presente algún acontecimiento como caso fortuito o fuerza mayor, con excepción de las obligaciones de confidencialidad y propiedad industrial. Se entiende como causas de fuerza mayor y/o caso fortuito aquellas resultantes de incendios, explosiones, tornados, inundaciones, terremotos, actividad volcánica, epidemias, daños o fallas en los medios de comunicación, condiciones ambientales, de salud o de seguridad, disturbios civiles o guerras, actos de autoridades civiles o militares, huelgas u otros disturbios laborales, actos u omisiones de terceros, incapacidad de obtener suministros para el trabajo o cualquier otra ocurrencia razonablemente fuera del control de para las partes, siempre y cuando dichos eventos hagan imposible el cumplimiento de las obligaciones de las mismas.</p>
+					</p>
+					<br></br>
+					
+					<p>
+						<span style="font-weight: bold;">DÉCIMA OCTAVA.- AVISOS Y NOTIFICACIONES.</span>
+						<p>Las partes señalan como sus domicilios para toda comunicación que pueda surgir entre ellos, avisos y notificaciones (judiciales y extrajudiciales), así como el requerimiento y cumplimiento de sus obligaciones, los señalados en el capítulo de declaraciones. </p>
+						<p>Toda la correspondencia se dirigirá y todos los avisos se harán, en los domicilios antes mencionados, a menos que cualquiera de las partes comunique a la otra, su cambio de domicilio, caso en el cual, la correspondencia se dirigirá o los avisos se harán en el nuevo domicilio. Los avisos entre las partes se entenderán hechos cuando se envíen por correo certificado con acuse de recibo o personalmente y por escrito, con acuse de recibo en forma personal o vía fax, confirmando de recibido por la otra parte.</p>
+						<p>Cualquier modificación a los términos o condiciones contenidas en el presente Contrato y/o sus Anexos, deberá realizarse por escrito y previo consentimiento otorgado por los representantes facultados de ambas partes.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">VIGÉSIMA.- DOMICILIOS.</span>
+						<p>Las partes señalan como domicilios legales para todo tipo de notificaciones los señalados en el apartado de declaraciones de este Contrato y las comunicaciones entre las mismas se harán por escrito y en forma indubitable ya sea por correo electrónico, o por entrega en propia mano de las comunicaciones correspondientes. Dichas comunicaciones serán enviadas y/o entregadas a las personas que se mencionan a continuación, y en su caso, a las personas que sean designadas por las partes.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<p>“EL CLIENTE”</p>
+						<p>Nombre: Jose Luis Espejel Estrada</p>
+						<p>Correo electrónico: operaciones@3mindstrategic.com</p>
+						<p>Teléfono: (222) 2371911</p>
+					</p>
+					<br></br>
+					<br></br>
+
+					<p>
+						<p><span style="font-weight: bold;">“EL PROVEEDOR”</span></p>
+						<p><span style="font-weight: bold;"><span t-field="doc.employee_id"/></span></p>
+						<p>Correo electrónico:<span style="font-weight: bold;">xxxxxxx</span></p>
+						<p>Móvil:<span style="font-weight: bold;">xxxx xxx xxx</span></p>
+					</p>
+					<br></br>
+					
+					<p>			
+						<p>Las partes podrán cambiar los domicilios señalados en las declaraciones del presente instrumento, en cuyo caso deberán notificar por escrito a la otra parte, su nuevo domicilio dentro de los quince días naturales siguientes de haberse realizado. Dicho cambio de domicilio surtirá sus efectos a partir de los quince días naturales de la fecha en que se hubiese recibido el aviso correspondiente.</p>
+						<p>Si no se notificó algún cambio de domicilio en los términos del párrafo que precede, la otra parte se liberará enviando las notificaciones correspondientes al último domicilio que le hubiese sido notificado.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">VIGÉSIMA PRIMERA.- INSTRANSFERIBILIDAD DE LAS OBLIGACIONES.</span>
+						<p>Los derechos u obligaciones que correspondan a “EL PROVEEDOR” como consecuencia del presente contrato, no pueden y no serán cedidos, transferidos, negociados, afectados y/o transmitidos a terceros, sin la aprobación previa, expresa y por escrito de “EL CLIENTE”.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">VIGÉSIMA SEGUNDA.- EJERCICIO.</span>
+						<p>La renuncia voluntaria u omisión de cualquiera de las partes para ejercer los derechos que les son otorgados en términos del presente Contrato y/o por las Leyes, Reglamentos y demás disposiciones que les resulten aplicables tras una violación o incumplimiento a cualquiera de las disposiciones del mismo por una parte respecto de la otra, no deberá considerarse como una renuncia a ejercitar los derechos para el caso de violaciones posteriores a la misma u otras disposiciones; tampoco operará como renuncia de derechos ante violación o incumplimiento de la otra parte, el retraso u omisión en el ejercicio de cualquier derecho o privilegio.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">VIGÉSIMA TERCERA.- RESOLUCIÓN DE CONFLICTOS.</span>
+						<p>Cualquier conflicto que surgiere con motivo de la interpretación o cumplimiento del presente Contrato se someterá en primer lugar en un intento de arreglo directo entre las partes, a través de las personas designadas por cada una de las mismas.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">VIGÉSIMA CUARTA.- JURISDICCIÓN.</span>
+						<p>Para la ejecución, interpretación y cumplimiento del presente Contrato, las Partes se someten expresamente a la jurisdicción y competencia de los tribunales de la Ciudad de Puebla, Puebla, renunciando a cualquier otro fuero o jurisdicción que pudiera corresponderles por razón de sus domicilios presentes o futuros o por cualquier otra causa.</p>
+						<p>Leído que fue el presente Contrato por las partes que en él intervienen y enteradas de su contenido, alcance y efectos legales lo firman de común acuerdo, en la Ciudad de Puebla, Puebla, al <span style="font-weight: bold;"><span t-field="doc.trial_date_start"/></span></p>
+					</p>
+					<br></br>
+					<br></br>
+					
+					<center>
+						<table>
+							<tr>
+								<td>
+								<center>
+								<p>“EL CLIENTE”</p>
+								<p>3MIND STRATEGIC, S.A. DE C.V.</p>
+								<br></br>
+								<br></br>
+								<br></br>
+								<p>____________________</p>
+								<p>REPRESENTADA POR:</p>
+								<p>Jose Luis Espejel Estrada</p>
+								</center>
+								</td>
+								
+								<td>
+								<center>
+                                <p>“EL PROVEEDOR”</p>
+								<br></br>
+                                <p></p>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                <p>____________________</p>
+                                <p></p>
+                                <p><span t-field="doc.employee_id"/></p>
+								</center>
+                                </td>
+							</tr>
+						</table>
+					</center>
+ 				</span>
+			</div>
+            </h4>
+
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	</div>
+</t>
+</template>
+
+
+<template id="report_contradef">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="doc">
+            <t t-call="employee_contradef_report.report_contradef_document" />
+        </t>
+    </t>
+</template>
+</data>
+</openerp>

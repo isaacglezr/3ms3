@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="objetivos_form_view">
+            <field name="name">objetivos.form</field>
+            <field name="model">objetivo.3ms</field>
+            <field name="arch" type="xml">
+                <form string="Course Form">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="Empleados"/>
+                        </group>
+                        <notebook>
+                            <page string="Description">
+                                <field name="description"/>
+                            </page>
+                            <page string="About">
+                                This is an example of notebooks
+                            </page>
+                            <!--<page string="Sessions">
+                                <field name="session_ids">
+                                    <tree string="Registered sessions" editable="botton">
+                                        <field name="name"/>
+                                        <field name="instructor_id"/>
+                                    </tree>
+                                </field>
+                            </page>-->
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="objetivo_tree_view">
+            <field name="name">objetivo.tree.view</field>
+            <field name="model">objetivo.3ms</field>
+            <field name="arch" type="xml">
+                <tree string="Course">
+                   <field name="name"/>
+                   <field name="Empleados"/>
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="objetivo_search_view">
+            <field name="name">objetivo.search.view</field>
+            <field name="model">objetivo.3ms</field>
+            <field name="arch" type="xml">
+                <search>
+                    <field name="name"/>
+                    <field name="description"/>
+                    <filter name="my_courses" string="My Courses" domain="[('responsible_id', '=', uid)]"/>
+                    <group string="Group By">
+                        <filter name="by_responsible" string="Responsible" context="{'group_by': 'responsible_id'}"/>
+                    </group>
+                </search>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="course_list_action">
+            <field name="name">Objetivos</field>
+            <field name="res_model">objetivo.3ms</field>
+            <field name="view_type">form</field>
+            <field name="view_model">tree,form,kanban</field>
+            <field name="context" eval="{'search_default_my_courses': 1}"/>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">Create the first course</p>
+            </field>
+        </record>
+
+            <menuitem id="main_openacademy_menu" name="Open Academy"/>
+
+            <menuitem id="openacademy_menu" name="Open Academy" parent="main_openacademy_menu"/>
+
+            <menuitem id="course_menu" name="Courses" parent="openacademy_menu" action="course_list_action"/>
+    </data>
+</odoo>

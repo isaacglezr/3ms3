@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<template id="report_survey_document">		
+		  <t t-call="report.external_layout">
+<!--	<img style="float:left;" src="/employee_offer_report/static/description/3ms.jpg"/>-->
+<!--	<img src="static/description/3ms.jpg"/>-->
+        <div class="page" style="text-align: justify;">
+<!--		<t t-set="style1" t-value="font-weigth"-->
+		<table style="border: 1px solid black; width: 100%;">
+		<tr style="border: 1px solid black">
+			<td style="border: 1px solid black"><span style="font-weight: bold;">Documento: </span></td>
+			<td style="border: 1px solid black"><span>&#32;ENCUESTA DE SALIDA</span></td>
+		</tr>
+		<tr style="border: 1px solid black">
+            <td style="border: 1px solid black"><span style="font-weight: bold;">Clave de Documento: </span></td>
+            <td style="border: 1px solid black"><span>&#32;      L76f16.09</span></td>
+        </tr>
+		<tr style="border: 1px solid black">
+            <td style="border: 1px solid black"><span style="font-weight: bold;">Vigencia a partir de: </span></td>
+            <td style="border: 1px solid black">&#32;<span t-esc="datetime.datetime.now().strftime('%d-%m-%Y')"></span></td>
+        </tr>		
+		</table><br/>
+		<center><h4>
+			<table style="border: 1px solid black; width: 100%;">
+			<tr style="border: 1px solid black">
+				<td style="border: 1px solid black">
+					<span style="text-align: justify; font-weight: bold;">
+                		Nombre: 
+            		</span>
+					<span t-field="doc.name"/>
+				</td>
+				<td style="border: 1px solid black">
+					<span style="text-align: justify; font-weight: bold;">
+                        Fecha: 
+                    </span>
+					<span t-field="doc.create_date"/>
+				</td>
+			</tr>
+			<tr style="border: 1px solid black">
+    			<td style="border: 1px solid black">
+					<span style="text-align: justify; font-weight: bold;">
+                        Puesto: 
+                    </span>
+					<span t-field="doc.job_id"/>
+				</td>
+    			<td style="border: 1px solid black">
+					<span style="text-align: justify; font-weight: bold;">
+                        Area: 
+                    </span>
+					<span t-field="doc.department_id"/>
+				</td>
+			</tr>
+			</table>
+        </h4></center><br/>
+		<ol style="text-align: justify; padding-left: 75px;">
+                <li>
+                   <span style="font-weight: bold;">
+					 ¿Cuáles son tus motivos para dejar 3Mind Strategic? Por favor elige todas
+					las opciones de respuesta que consideres sean las indicadas. || Which are
+					your reason to leave 3Mind Strategic? Please choose all the options that
+					you consider are the indicated.
+					</span>
+					<table style="border: 1px solid black">
+						<tr style="border: 1px solid black">
+							<td style="border: 1px solid black; width: 10%"></td>
+							<td style="border: 1px solid black; width: 70%">Un trabajo mejor || A better job</td>
+						</tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Necesito un cambio || I need a change</td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Conflicto de intereses || Interested confilct</td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Motivos familiares || Familiar motives</td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Motivos personales || Personal motives</td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Desmotivacion || Desmotivation</td>
+                        </tr>
+
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Sueldo || Payment</td>
+                        </tr>
+
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Cambio de lugar de residencia || Change in my residence place</td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Estudios || Study</td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Jefes || Boss</td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Compañeros || Coworkers</td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Beneficios sociales || Social benefits</td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Otro || Others:<br/></td>
+                        </tr>
+					</table>
+                </li><br/>
+                <li>
+                    <span style="font-weight: bold;">
+					¿Cuánto tiepo tenías pensando en dejar 3Mind Strategic? || How much 
+					time have you been thinking about leaving 3Mind Strategic?
+					</span>
+					<table>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Menos de un mes || Less than a month</td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Entre uno y dos meses || Between one and two months</td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Entre dos y tres meses || Between two and three months</td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 70%">Mas de tres meses || More than three months</td>
+                        </tr>
+					</table>
+                </li>
+				<li>
+					<span style="font-weight: bold;">
+                    ¿Cuál fue tu grado de satisfacción con los siguientes aspectos durante tu 
+					estancia en 3Mind Strategic? || How much satisfied did you feel with the 
+					following aspects while you where working in 3Mind Strategic?
+                    </span>
+                    <table>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 30%"></td>
+                            <td style="border: 1px solid black; width: 15%">Mucho || Very</td>
+                            <td style="border: 1px solid black; width: 15%">Normal || Normal</td>
+                            <td style="border: 1px solid black; width: 15%">Poco || A little</td>
+                            <td style="border: 1px solid black; width: 15%">Nada || I'm not</td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Ambiente Laboral || Work atmosphere</td>
+                            <td style="border: 1px solid black"></td>
+							<td style="border: 1px solid black"></td>
+							<td style="border: 1px solid black"></td>
+							<td style="border: 1px solid black"></td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Objetivos personales || Personal objectives</td>
+							<td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Valores de la empresa || The values of the company</td>
+							<td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Beneficios sociales || Social benefits</td>
+							<td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Salarios || Payment</td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Potencial de promoción || Promotion potencial</td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Capacitación || Training</td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Carga de trabajo || Workload</td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Interés en el trabajo || Interest in your job</td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Jefes || Boss</td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Compañeros || Coworkers</td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+						<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 40%">Reconocimientode mi labor || Appreciation of my work</td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                            <td style="border: 1px solid black"></td>
+                        </tr>
+                    </table>
+				</li><br/><br/>
+				<li>
+					<span style="font-weight: bold;">
+					En términos generals, ¿qué tan bien consideras que está organizada la 
+					empresa? // In general terms, how much organized you think the company
+					is?
+					</span>
+					<table>
+					<tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 25%">Muy Bien || Very Good</td>
+                            <td style="border: 1px solid black; width: 25%">Bien || Good</td>
+                            <td style="border: 1px solid black; width: 25%">Regular || Regular</td>
+                            <td style="border: 1px solid black; width: 25%">Mal || Bad</td>
+                        </tr>
+                        <tr style="border: 1px solid black">
+                            <td style="border: 1px solid black; width: 25%"><br/></td>
+                            <td style="border: 1px solid black; width: 25%"><br/></td>
+                            <td style="border: 1px solid black; width: 25%"><br/></td>
+                            <td style="border: 1px solid black; width: 25%"><br/></td>
+                        </tr>
+					</table>
+		               	¿Por qué? || Why? <br/><br/>
+						_______________________________________________________________
+						_______________________________________________________________
+						_______________________________________________________________
+				</li>
+				<li>
+					<span style="font-weight: bold;">¿Qué era lo que más te gustaba de tu trabajo? // ¿What thing about you 
+					job you liked the most?</span><br/><br/>
+					_______________________________________________________________
+                    _______________________________________________________________
+                    _______________________________________________________________
+                </li>
+				<li>
+                    <span style="font-weight: bold;">¿Qué era lo que menos te gustaba de tu trabajo? // What thing about your 
+					job you disliked the most?</span><br/><br/>
+                    _______________________________________________________________
+                    _______________________________________________________________
+                    _______________________________________________________________
+                </li>
+				<li>
+                    <span style="font-weight: bold;">¿Tienes alguna sugerencia para mejorar las condiciones laborales de 
+					3Mind Strategic? // Do you have any suggestions for 3Mind Strategic, so
+					we can improve our work conditions?</span><br/><br/>
+                    _______________________________________________________________
+                    _______________________________________________________________
+                    _______________________________________________________________
+                </li>
+				<li>
+					<span style="font-weight: bold;">¿Crees que tu labor ha sido importante para 3Mind Strategic? // Do you 
+					think that your work has been important for 3Mind Strategic?</span>
+					<table>
+						<tr>
+							<td style="border: 1px solid black; width: 10%"></td>
+							<td style="border: 1px solid black; width: 10%">Sí || Yes</td>
+						</tr>
+						<tr>
+							<td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 10%">No || No</td>
+						</tr>
+					</table>
+					¿Por qué? || Why? <br/><br/>
+                    _______________________________________________________________
+                    _______________________________________________________________
+                    _______________________________________________________________
+				</li>
+				<li>
+					<span style="font-weight: bold;">
+					¿Recomendarías a un amigo trabajar en 3Mind Strategic? // Would you 
+					recommend to a friend work in 3Mind Strategic? 
+					</span>
+                    <table>
+                        <tr>
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 10%">Sí || Yes</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid black; width: 10%"></td>
+                            <td style="border: 1px solid black; width: 10%">No || No</td>
+                        </tr>
+                    </table>
+                    ¿Por qué? || Why? <br/><br/>
+                    _______________________________________________________________
+                    _______________________________________________________________
+                    _______________________________________________________________
+			
+				</li>
+				<li>
+                    <span style="font-weight: bold;">¿Tienes algún comentario extra? // Do you have any extra comments?</span><br/><br/>
+                    _______________________________________________________________
+                    _______________________________________________________________
+                    _______________________________________________________________
+				</li>
+            </ol>
+		</div>
+</t>
+</template>
+
+
+<template id="report_survey">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="doc">
+            <t t-call="employee_survey_report.report_survey_document" />
+        </t>
+    </t>
+</template>
+</data>
+</openerp>

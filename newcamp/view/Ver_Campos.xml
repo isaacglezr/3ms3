@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+		<record id="Campos_view" model="ir.ui.view">
+	    	<field name="name">hr.employee_Campos_view.inherited</field>
+	    	<field name="model">hr.employee</field>
+            <field name="inherit_id" ref="hr.view_employee_form"></field>
+            <field name="arch" type="xml">
+				<xpath expr="//field[@name='category_ids']" position="after">
+					<div class="oe_title">
+                            <label for="x_alias" class="oe_edit_only"/>
+                            <h4>
+								<field name="x_alias" placeholder="Alias"/>
+                            </h4>
+                        </div>
+				</xpath>
+				<xpath expr="//field[@name='passport_id']" position="after">
+					<field name="x_Venc_Pasaporte"/>
+                    <field name="x_ClaveMigracion"/>
+                </xpath>
+				<xpath expr="//field[@name='identification_id']" position="after">
+                    <field name="x_ClaveUnica"/>
+					<field name="x_NSS"/>
+					<field name="x_Seguro_Vida"/>
+                </xpath>
+				<!--<xpath expr="//group[@name='bank_account_id']" position="after">
+					<field name="birthday"/>
+					<field name="place_of_birth"/>
+				</xpath>-->
+				<!--	<field name="x_Clabe_Interb"/>-->
+                
+				<xpath expr="//field[@name='gender']" position="before">
+                    <field name="x_Pade_Enfermedad" placeholder="Ej. Hipertension, Diabetes, etc."/>
+                </xpath>
+
+				<xpath expr="//page[@name='personal_information']" position="inside">
+                        <group string="Informacion RR.HH.">
+							<field name="x_Fecha_Ingr"/>
+							<field name="x_Fecha_Baja" attrs="{'invisible': [('active', '=', True)]}"/>
+		                    <field name="x_Motiv_Baja" attrs="{'invisible': [('active', '=', True)]}"/>
+							<field name="user_id" string="Usuario OpenERP"/>
+						<!--	<field name="barcode" string="ID Empleado"/>-->
+                        </group>
+                </xpath>
+
+	        	<notebook position="inside">
+	            	<page string="Documentos Digitales">
+						<group>
+			    			<group string="Documentos Personales">
+								<field name="x_Act_Nacimiento"/>
+                	        	<field name="x_Ident_INE"/>
+                    	    	<field name="x_Curp"/>
+								<field name="x_TarjetaMigracion"/>
+								<field name="x_Prescrip_Medica"/>
+								<field name="x_rfc_dig"/>
+								<field name="x_Poliza_Seguro"/>
+								<field name="x_Pasaporte"/>
+								<field name="x_Estado_Cuenta"/>
+								<field name="x_Viaje_Extranjero"/>
+						    </group>
+ 						    <group string="Cartas y Convenios Entrada">
+								<field name="x_ofeton"/>
+								<field name="x_Convenio_Confide"/>
+								<field name="x_Contrato"/>
+						    </group>
+						</group>
+						<group>
+						    <group string="Cartas y Convenios Salida">
+								<field name="x_Termi_Antici"/>
+                                <field name="x_EncuestaSalida"/>
+                        		<field name="x_Acuerdo_Confi_Salida"/>
+						    </group>
+		    		    </group> 
+				    </page>
+				</notebook>
+
+                <notebook position="inside">
+                    <page string="Objetivos">
+                            <field name="x_Objetivos" widget="many2many">
+								<tree>
+      								<field name="name"/>
+							       	<field name="fecha_inicio"/>
+									<field name="fecha_fin"/>
+									<field name="teamleader"/>
+   								</tree>
+							</field>
+                    </page>
+                </notebook>
+
+				<notebook position="inside">
+                    <page string="Capacitaciones">
+                            <field name="x_capacitaciones" widget="many2many">
+                         <!--       <tree>
+                                    <field name="course_id"/>
+                                    <field name="instructor_id"/>
+                                    <field name="start_date"/>
+                                </tree>-->
+                            </field>
+                    </page>
+                </notebook>
+
+				<notebook position="inside">
+                    <page string="Incidencias">
+							<group string="Ausencias">
+								<field name="x_Ausencias" string="Ausencias" widget="many2many">
+									<tree>
+										<field name="holiday_status_id"/>
+										<field name="name"/>
+										<field name="report_note"/>
+										<field name="state"/>
+									</tree>
+								</field>
+							</group>
+							<group string="Vacaciones">
+								<field name="x_Vacaciones" widget="many2many">
+									<tree>
+                                        <field name="name"/>
+                                        <field name="date_st"/>
+                                        <field name="date_fin"/>
+                                        <field name="not_vac"/>
+                                        <field name="x_Emplea_vaca" default="user_id"/>
+                                    </tree>
+								</field>
+							</group>
+                            <group string="Compensaciones">
+								<field name="x_Compensaciones" widget="many2many">
+                                    <tree>
+                                        <field name="name"/>
+                                        <field name="x_tipocompensacion"/>
+                                        <field name="x_fecha_inicio"/>
+										<field name="x_fecha_fin"/>
+										<field name="x_vigentes"/>
+										<field name="x_notecomp"/>
+										<field name="x_Empleado" default="user_id"/>
+                                    </tree>
+                                </field>
+                            </group>
+                    </page>
+				</notebook>
+
+           	</field>
+		</record>
+    </data>
+</odoo>

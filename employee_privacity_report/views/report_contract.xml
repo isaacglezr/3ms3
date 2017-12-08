@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<template id="report_privacity_document">		
+		  <t t-call="report.external_layout">
+<!--	<img style="float:left;" src="/employee_offer_report/static/description/3ms.jpg"/>-->
+<!--	<img src="static/description/3ms.jpg"/>-->
+        <div class="page" style="text-align: justify;">
+<!--		<t t-set="style1" t-value="font-weigth"-->
+		<center>
+		<span><h1>ANEXO &#34;A&#34;<br/>CONVENIO DE CONFIDENCIALIDAD</h1></span><br/>
+            <div class="oe_structure"/>
+            <h4 style="text-align: justify;">
+            <span>CONVENIO DE CONFIDENCIALIDAD QUE CELEBRAN POR UNA PARTE LA SOCIEDAD
+				ANONIMA <span style="font-weight: bold;">3MIND STRATEGIC, S.A. DE C.V.</span> QUIEN EL LO SUCESIVO SE LE
+				DENOMINARA &#34;EL CLIENTE&#34; REPRESENTANDO EN ESTE ACTO POR <span style="font-weight: bold;">JOSE LUIS ESPEJEL
+				ESTRADA</span> Y POR LA OTRA <span style="font-weight: bold; text-transform: uppercase;" t-field="doc.employee_id"/>, QUIEN EN LO
+				SUCESIVO SE LE DENOMINARA &#34;EL PROVEEDOR&#34;, AL TENOR DE LAS SIGUIENTES
+				DECLARACIONES Y CLAUSULAS:	
+			</span>
+            </h4><br/>
+			<h4 style="font-weight: bold;">DECLARACIONES</h4>
+			<br/>
+		</center>
+
+		<h4>
+            <span style="text-align: justify; font-weight: bold;">
+                I.&#09;Declara &#34;EL CLIENTE&#34; por conducto de su aporedad, bajo protesta de decir verdad que:
+            </span>
+        </h4>
+		<ol style="text-align: justify; padding-left: 75px;">
+                <li>
+					Que es una Empresa de Consultoría en Tecnología de Información
+                    Debidamente contituida conforme a las leyes de LOS Estados Unidos
+                    Mexicanos, como consta en la escritura pública 270,661, de fecha 06 de Mayo
+                    de 2013, otorgada ante la fe del Lic. CLAUDIO JUAN RAMON HERNANDEZ DE
+                    RUBÍN, Notario Público número 123 del estado del Distrito Federal con
+                    ejercicio y residencia en el Distrito Federal.
+                </li>
+                <li>
+                    Que su representante legal cuenta con las facultades necesarias para obligar
+                    a su representada en los términos y condiciones del presente instrumento y
+                    que bajo protesta de decir verdad dichas facultades no les han sido
+                    revocadas, modificadas ni limitadas en forma alguna a la fecha de la firma del
+                    presente &#34;Convenio&#34;
+                </li>
+				<li>
+					Que su domicilio fiscal es el ubicado en VIA ATLICAYOTL 5208 INT 13.
+					COLONIA ATLIXCAYOTL 2000, SAN ANDRES CHOLULA, PUEBLA 72825, México.
+				</li>
+            </ol>
+			<h4>
+            	<span style="text-align: justify; font-weight: bold;">
+                	II.&#09;Declara &#34;EL PROVEEDOR&#34;, bajo protesta de decir verdad que:
+            	</span>
+        	</h4>
+			<ol style="text-align: justify; padding-left: 75px;">
+                <li>
+					Que es una Persona Física, con numero de pasaporte <span t-field="doc.x_pasaporte"/>
+                </li>
+                <li>
+					Que cuenta con la suficiente experiencia, capacidad técnica, conocimientos y 
+					equipo necesario para prestar los servicios objeto del presente Contrato.
+                </li>
+                <li>
+					Que su domicilio fiscal es el ubicado en: <span t-field="doc.x_direccion"/>
+                </li>
+            </ol>
+			<h4>
+                <span style="text-align: justify; font-weight: bold;">
+                    III.&#09;Declaran las Partes, bajo protesta de decir verdad que:
+                </span>
+            </h4>
+			<ol style="text-align: justify; padding-left: 75px;">
+                <li>
+                   	Es voluntad de las Partes celebrar el presente convenio para establecer los 
+				   	términos y condiciones para hacer uso de la denominada &#34;Informacion Confidencial&#34;
+				   	que significa de manera enunciativa mas no limitativa lo 
+					siguiente:
+						<ol type="a">
+							<li>
+								Toda la información señalada como confidencial, restringida o propiedad 
+								de una de las partes que sea proporcionada o se haga del conocimiento 
+								de la parte;
+							</li>
+							<li>
+								La información de una parte sobre documentos contables, financieros y/o 
+								legales e información relativa a la planeación y operaciones del negocio 
+								de la otra parte, incluyendo sin limitar aquella relativa a listas de 
+								clientes, bases de datos, planes y políticas de comercialización e 
+								información técnica y administrativa y;
+							</li>
+							<li>
+								Aquella relativa a los productos o servicios desarrollados por las partes y 
+								que sean identificados por escrito por las mismas como estratégicos.
+							</li>
+
+						</ol>
+                </li>
+            </ol>
+			<h4 style="text-align: justify;">
+            <span>En virtud de lo anterior, ambas partes se someten a las disposiciones de las 
+				  siguientes:
+            </span>
+            </h4>
+			<br/><br/><br/><br/>
+			<center><h4 style="font-weight: bold;">CLÁUSULAS</h4></center>
+			<br/>
+			<h4>
+				<span>
+                	<span style="text-align: justify; font-weight: bold;">
+                    	PRIMERA.
+                	</span>
+					Ambas partes aceptan que toda información recibida antes, durante y 
+					posterior el período establecido en el <span style="font-style: italic;">Contrato de Prestación de Servicios Profesionales </span>
+					es propiedad de &#34;EL CLIENTE&#34; y la misma será considerada como 
+					INFORMACIÓN CONFIDENCIAL, por lo tanto &#34;EL PROVEEDOR&#34; se obliga a guardarla en 
+					secreto, por lo que no podrá hacerla del conocimiento de persona alguna.<br/><br/>
+					<span style="text-align: justify; font-weight: bold;">
+                        SEGUNDA.
+                    </span>
+					&#34;EL PROVEEDOR&#34; se obliga a no divulgar la información que en forma 
+					personal maneje, ni la proporcionará a terceras personas en forma verbal; escrita; 
+					por medios electrónicos, magnéticos, o por cualquier otro; directa o indirectamente; 
+					por el contrario, se obliga a conservarla y no divulgarla.<br/><br/>
+					<span style="text-align: justify; font-weight: bold;">
+                        TERCERA.
+                    </span>
+                    Las obligaciones establecidas para &#34;EL PROVEEDOR&#34;, inherentes a este 
+					convenio, subsistirán por tiempo indefinido a partir de su firma, independientemente 
+					de que la relación de trabajo termine por cualquier causa.<br/><br/>
+					<span style="text-align: justify; font-weight: bold;">
+                        CUARTA. 
+                    </span>
+          			El incumplimiento o violación de cualquiera de las obligaciones aquí 
+					contraídas por &#34;EL PROVEEDOR&#34; implicarán la rescisión del<span style="font-style: italic;"> Contrato de Prestación de 
+					Servicios Profesionales</span> del que forma parte el presente documento; así como el pago 
+					de las afectaciones que de esta actitud resulten sin responsabilidad para &#34;EL 
+					CLIENTE&#34;, en virtud de considerarse faltas graves de probidad y lealtad que ambas 
+					partes pactaron.<br/><br/>
+					<span style="text-align: justify; font-weight: bold;">
+                        QUINTA.
+                    </span>
+                    &#34;EL PROVEEDOR&#34; acepta que independientemente de la responsabilidad 
+					civil originada por el incumplimiento de las obligaciones consignadas en este 
+					convenio, según dispone el artículo 32 de la Ley Federal del Trabajo, podrá generarse 
+					responsabilidad de naturaleza penal.<br/><br/>
+					<span style="text-align: justify; font-weight: bold;">
+                        SEXTA.
+                    </span>
+					Este convenio forma parte del<span style="font-style: italic;"> Contrato de Prestación de Servicios 
+					Profesionales</span> que tiene celebrado &#34;EL EMPLEADO&#34; con &#34;EL CLIENTE&#34;.<br/><br/>
+					<span style="text-align: justify; font-weight: bold;">
+                        SEPTIMA.
+                    </span>
+					Para todo lo relativo a la interpretación y ejecución del presente convenio, 
+					las partes se someten a las leyes y tribunales competentes de la ciudad de Puebla, 
+					Puebla; renunciando al fuero que por cualquier otra causa pudiere corresponderles.<br/><br/>
+					Las Partes firman el presente convenio al <span t-field="doc.create_date" t-field-options='{"format": "d MMMM y"}'></span>.
+				</span>
+            </h4>
+			<br/><br/><br/><br/><br/><br/>
+			<center>
+				<div>
+                    <div class="col-xs-5">
+                        <h4>________________________</h4>
+                        <h5>3MIND STRATEGIC, S.A. DE C.V.</h5>
+						<h6>Jose Luis Espejel Estrada</h6>
+                    </div>
+                    <div class="col-xs-5">
+                        <h4>________________________</h4>
+                        <h5><div t-field="doc.employee_id"/></h5>
+                    </div>
+                </div>            
+			</center>
+		</div>
+</t>
+</template>
+
+
+<template id="report_privacity">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="doc">
+            <t t-call="employee_privacity_report.report_privacity_document" />
+        </t>
+    </t>
+</template>
+</data>
+</openerp>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report
+            id="report_employee_offer"
+            string="Oferta"
+            model="hr.contract"
+            report_type="qweb-pdf"
+            file="employee_offer_report.report_offer"
+            name="employee_offer_report.report_offer"
+        />
+    </data>
+</openerp>

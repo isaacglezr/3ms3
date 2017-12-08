@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<template id="report_offer_document">
+		  <t t-call="report.external_layout">
+        <div class="page" style="text-align: justify;">
+        <div class="oe_structure"/>
+		<!--<img src="/employee_offer_report/static/description/3ms.jpg"/><br/>-->
+        <span style="float: rigth;">Puebla, Pue; a <span t-field="doc.create_date" t-field-options='{"format": "d MMMM y"}'></span></span><br/><br/><br/>
+            <h4>
+            <span>Estimado: <span t-field="doc.employee_id"/></span>
+            </h4>
+
+            <h5>
+			<span>3Mind Strategic desea formalizar una propuesta de percepcion de honorarios por<br/>servicios profesionales de <span t-field="doc.department_id"/> entre ambas partes bajo los siguientes términos:</span>
+            <br/><br/>
+			<div>	
+			<ul style="padding-left: 75px; text-align: justify;">
+				<li><span>La oferta tiene como base el compromiso, responsabilidad de ambas partes y la<br/> buena intencion de trabajo en equipo para el logro de metas.</span></li>
+				<li><span>El <span t-field="doc.job_id"/> tiene conocimientos previos del área.</span></li>
+				<li><span>La contraprestacion de los Servicios Profesionales se realizará vía honorario.</span></li>
+				<li><span>La oferta será efectiva a partir del <span t-field="doc.create_date" t-field-options='{"format": "d MMMM y"}'/> en la Gerencia de Ingenieria<br/>de Software.</span></li>
+				<li><span>La designación a un proyecto y/o servicios profesionales se regirá con base en los<br/>requerimientos de 3Mind Strategic.</span></li>
+				<li><span>La remuneración ofrecida via por honorarios se reaizará en Pesos Mexicanos y<br/>corresponde a:</span></li>
+			</ul>
+			</div>
+			</h5>
+<center>
+			<div style="text-align: justify;">				
+            	<div class="row">
+                	<div class="col-xs-4">
+                    	<h4>Concepto</h4>
+                    	Honorarios Brutos
+                	</div>
+                	<div class="col-xs-4">
+                    	<h4>Remuneración</h4>
+                    	<div t-esc="$" t-field="doc.wage"/>
+                	</div>
+            	</div>
+				
+			</div>
+</center>
+            <br/><br/><br/>
+				<ul style="padding-left: 75px; text-align: justify;">
+					<li>La disperión de la remuneración mencionada se realizará el ultimo dia hábil del<br/>mes.</li>
+				</ul>
+			<br/><br/><br/>
+			<span>La presente oferta se firma de conformidad por ambas partes, bajo el entendido que ésta<br/>no omite o sustituye la formalidad del contrato de prestación de servicios.</span>
+			<br/><br/><br/><br/><br/><br/>
+			
+				<div style="text-align:justify;">
+                    <div class="col-xs-5">
+                        <h4>________________________</h4>
+                        <h5>José Luis Espejel Estrada</h5>
+						<h6>Direccion de Proyectos y Finanzas</h6>
+                    </div>
+                    <div class="col-xs-5">
+                        <h4>________________________</h4>
+                        <h5><div t-field="doc.employee_id"/></h5>
+						<h6><div t-field="doc.job_id"/></h6>
+                    </div>
+                </div>            
+		</div>
+</t>
+</template>
+
+
+<template id="report_offer">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="doc">
+            <t t-call="employee_offer_report.report_offer_document" />
+        </t>
+    </t>
+</template>
+</data>
+</openerp>

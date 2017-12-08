@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report
+            id="report_survey_privacity"
+            string="Encuesta de Salida"
+            model="hr.employee"
+            report_type="qweb-pdf"
+            file="employee_survey_report.report_survey"
+            name="employee_survey_report.report_survey"
+        />
+    </data>
+</openerp>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<template id="report_anticipada_document">
+    <t t-call="report.external_layout">  
+<!--		<img style="float:right;" src="/employee_contract_report/static/description/3ms.jpg"/>-->
+<!--	<img src="static/description/3ms.jpg"/>-->
+        <div class="page">
+		<span style="float:right;">Puebla, Pue; a <span t-field="doc.create_date" t-field-options='{"format": "d MMMM y"}'></span></span><br/><br/><br/>
+            <div class="oe_structure"/>
+            <h4>
+			<div style="text-align: justify">
+            	<span>
+					<p>
+						<span style="font-weight: bold;">CONVENIO DE TERMINACIÓN ANTICIPADA DEL CONTRATO DE PRESTACIÓN DE SERVICIOS PROFESIONALES</span>
+						, QUE CELEBRAN POR UNA PARTE LA SOCIEDAD DENOMINADA
+						 <span style="font-weight: bold;">3MIND STRATEGIC SA DE CV</span>
+						 , EN LO SUCESIVO DENOMINADA COMO
+						<span style="font-weight: bold;">“EL CLIENTE”</span>
+						, REPRESENTADA EN ESTE ACTO POR
+						 <span style="font-weight: bold;">JOSE LUIS ESPEJEL ESTRADA</span>
+						, Y POR LA OTRA PARTE
+						<span style="font-weight: bold;"><span t-field="doc.employee_id"/></span>
+						POR SU PROPIO DERECHO, EN LO SUCESIVO DENOMINADO COMO “EL PROVEEDOR”, AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS:
+					</p>
+					<br></br>
+					<br></br>
+						<center><span style="font-weight: bold;">A N T E C E D E N T E S</span></center>
+					<br></br>
+					<br></br>
+					
+					<p>
+						<p>1. Señalan las partes que con fecha <span t-field="doc.create_date"/>, celebraron un contrato de prestación de servicios profesionales cuyo objeto consistía en la Prestación de Servicios según se enuncia en la cláusula Segunda del Contrato de Prestación de Servicios Profesionales, mismo que se le puede citar como “Contrato Principal” con una vigencia indeterminada, </p>
+						<p>2. Que por así convenir a sus intereses expresan su conformidad en celebrar este convenio de terminación anticipada, de acuerdo con las siguientes:</p>
+					</p>
+
+					<br></br>
+                    <br></br>
+                        <center><span style="font-weight: bold;">D E C L A R A C I O N E S</span></center>
+                    <br></br>
+                    <br></br>
+
+
+					<p>
+						<p>1. Las partes tienen aquí por reproducidas las declaraciones del Contrato Principal, como si a la letra se insertasen.</p>
+						<p>2. Las partes manifiestan que cuentan con la capacidad jurídica para obligarse en el presente instrumento jurídico, conforme a las siguientes:</p>
+					</p>
+					<br></br>
+                    <br></br>
+                        <center><span style="font-weight: bold;">C L Á U S U L A S</span></center>
+                    <br></br>
+                    <br></br>
+
+					<p>
+                        <p><span style="font-weight: bold;">PRIMERA.-</span> Las partes  acuerdan dar por terminado anticipadamente el contrato citado en el<span style="font-weight: bold;"> ANTECEDENTE</span> número 1 del presente convenio con efectos a partir del <span t-esc="datetime.datetime.now().strftime('%d-%m-%Y')"></span>, bajo lo enunciado en la cláusula <span style="font-weight: bold;"> DÉCIMA SEGUNDA</span> del Contrato Principal.</p>
+                        <p><span style="font-weight: bold;">SEGUNDA.-</span> Las partes reconocen el alcance de las obligaciones por ambas después de la terminación del Contrato Principal bajo lo enunciado en la cláusula<span style="font-weight: bold;"> DÉCIMA SEXTA</span> .</p>
+						<p><span style="font-weight: bold;">TERCERA.-</span> Las partes manifiestan haber recibido a su entera satisfacción el servicio prestado; así como, las contraprestaciones correspondientes; sin existir ninguna clase de adeudo, penalización o alguna otra.</p>
+						<p>Enteradas las partes del presente, de su contenido, alcance y efectos legales lo firman de común acuerdo, en la Ciudad de Puebla, Puebla, al <span t-esc="datetime.datetime.now().strftime('%d-%m-%Y')"></span>.</p>
+                    </p>
+					<br></br>
+
+                    <center>
+                        <table>
+                            <tr>
+                                <td>
+                                <center>
+                                <p><span style="font-weight: bold;">“EL CLIENTE”</span></p>
+								<p><span style="font-weight: bold;">3MIND STRATEGIC, S.A. DE C.V.</span></p>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                <p>____________________</p>
+                                <p><span style="font-weight: bold;">REPRESENTADA POR:</span></p>
+                                <p><span style="font-weight: bold;">Jose Luis Espejel Estrada</span></p>
+                                </center>
+                                </td>
+
+                                <td>
+                                <center>
+                                <p>“EL PROVEEDOR”</p>
+                                <br></br>
+                                <p></p>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                <p>____________________</p>
+                                <p></p>
+                                <p><span style="font-weight: bold;"><span t-field="doc.employee_id"/></span></p>
+                                </center>
+                                </td>
+                            </tr>
+                        </table>
+                    </center>
+					
+
+ 				</span>
+			</div>
+            </h4>
+
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	</div>
+</t>
+</template>
+
+
+<template id="report_anticipada">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="doc">
+            <t t-call="employee_anticipada_report.report_anticipada_document" />
+        </t>
+    </t>
+</template>
+</data>
+</openerp>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report
+            id="report_bajaprivacity_contract"
+            string="Confidencialidad Baja"
+            model="hr.contract"
+            report_type="qweb-pdf"
+            file="employee_bajaprivacity_report.report_bajaprivacity"
+            name="employee_bajaprivacity_report.report_bajaprivacity"
+        />
+    </data>
+</openerp>

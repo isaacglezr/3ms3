@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+<data>
+<template id="report_bajaprivacity_document">
+    <t t-call="report.external_layout">  
+<!--		<img style="float:right;" src="/employee_contract_report/static/description/3ms.jpg"/>-->
+<!--	<img src="static/description/3ms.jpg"/>-->
+        <div class="page">
+		<span style="float:right;">Puebla, Pue; a <span t-field="doc.create_date" t-field-options='{"format": "d MMMM y"}'></span></span><br/><br/><br/>
+            <div class="oe_structure"/>
+            <h4>
+			<div style="text-align: justify">
+            	<span>
+					<p>
+						<span style="font-weight: bold;">CONVENIO DE CONFIDENCIALIDAD QUE CELEBRAN POR UNA PARTE LA SOCIEDAD “3MIND STRATEGIC”, SOCIEDAD ANÓNIMA DE CAPITAL VARIABLE, A QUIEN EN LO SUCESIVO SE LE DENOMINARÁ COMO “LA EMPRESA”, REPRESENTADA EN ESTE ACTO POR JOSÉ LUIS ESPEJEL ESTRADA, EN SU CARÁCTER DE APODERADO LEGAL; Y POR LA OTRA PARTE, <span style="text-transform: uppercase;" t-field="doc.employee_id"/>,  POR SU PROPIO DERECHO, A QUIEN EN LO SUCESIVO SE LE DENOMINARÁ COMO “EL PROVEEDOR”, AL TENOR DE LAS SIGUIENTES DECLARACIONES Y CLÁUSULAS.</span>
+					</p>
+					<br></br>
+					<br></br>
+						<center><span style="font-weight: bold;">DECLARACIONES</span></center>
+					<br></br>
+					<br></br>
+					
+					<p>
+						<span style="font-weight: bold;">I. Declara “LA EMPRESA” por conducto de su apoderado legal, bajo protesta de decir verdad: </span>					
+						<p>1. Que es una sociedad, debidamente constituida por las leyes mexicanas, según consta en la Escritura Pública número Doscientos setenta mil seiscientos sesenta y uno, Libro Siete mil ciento setenta y dos, de fecha dos de mayo del año dos mil trece, otorgada ante la Fe Pública del Licenciado Claudio Juan Ramón Hernández de Rubín, Titular de la Notaria número Ciento veintitrés del Distrito Federal, actuando como asociado en el protocolo de la Notaria número Seis, de la que es Titular el Lic. Fausto Rico Álvarez.</p>
+						<p>2. Que <span style="font-weight: bold;">JOSÉ LUIS ESPEJEL ESTRADA</span>, es de nacionalidad mexicana, mayor de edad, que cuenta con capacidad legal para realizar y obligar a su representada por este instrumento por contar con las facultades, según consta en el Instrumento Público número Cuatro mil novecientos setenta y nueve, Volumen setenta y siete, de fecha diecinueve de septiembre del año dos mil catorce, otorgado ante la fe del Lic. Jaime Juárez Hernández Titular de la Notaria Publica número Treinta y ocho de las del Distrito Judicial de Puebla, Estado de Puebla, manifestando bajo protesta de decir verdad que este mandato no le ha sido modificado, revocado ni restringido, a la fecha de suscripción del presente convenio identificándose en este momento con Pasaporte expedido por lo Secretaría de Relaciones Exteriores.</p>
+						<p>3. Que su domicilio fiscal se encuentra ubicado en Vía Atlixcayotl número 5208 Torre JV 1 Piso 13, Colonia Atlixcayotl 2000, C.P. 72825, San Andrés Cholula, Puebla.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">II. Declara “EL PROVEEDOR” bajo protesta de decir verdad:</span>
+						<p>1. Ser de nacionalidad xxxxxxxxxxxxxx</p>
+						<p>2. Nacido el <span style="font-weight: bold;"> xx-xxxxx-xxxx </span>, por lo que cuenta con capacidad legal para contratar.</p>
+						<p>3. Que su domicilio es <span style="font-weight: bold;"> <span t-field="doc.x_direccion"/></span> </p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">III. Declaran “LAS PARTES”, conjuntamente y bajo protesta de decir verdad que: </span>
+						<p>1. Tienen firmado un Contrato de Prestación de Servicios Profesionales entre <span style="font-weight: bold;"> “LA EMPRESA” y “EL PROVEEDOR”.</span></p>
+						<p>2. Este Convenio de Confidencialidad es parte integrante del mencionado Contrato de Prestación de Servicios Profesionales (Denominado “Anexo A” en el Cuerpo del contrato).</p>
+						<p>3. Es voluntad de las Partes celebrar el presente convenio para establecer los términos y condiciones para hacer uso de la denominada “Información Confidencial” que significa de manera enunciativa mas no limitativa lo siguiente:</p>
+						<p>a. Toda la información señalada como confidencial, restringida o propiedad de una de las partes que sea proporcionada o se haga del conocimiento de la otra parte;</p>
+						<p>b. La información de una parte sobre documentos contables, financieros y/o legales e información relativa a la planeación y operaciones del negocio de la otra parte, incluyendo sin limitar aquella relativa a listas de clientes, bases de datos, planes y políticas de comercialización e información técnica y administrativa y,</p>
+						<p>c. Aquella relativa a los productos o servicios desarrollados por las partes y que sean identificados por escrito por las mismas como estratégicos.</p>
+						<p>Una vez declarado lo anterior, las Partes manifiestan su conformidad en obligarse en términos de las siguientes: </p>
+					</p>
+					<br></br>
+					<br></br>
+
+						<center><span style="font-weight: bold;">CLÁUSULAS</span></center>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">PRIMERA. DEL OBJETO DEL “CONVENIO”.</span>
+						<p>Las partes manifiestan que en virtud de la relación establecida entre <span style="font-weight: bold;"> “LA EMPRESA” y “EL PROVEEDOR”</span> a través de la prestación de servicios profesionales,<span style="font-weight: bold;"> “EL PROVEEDOR”</span> acepta y reconoce que ha tenido acceso a diversa información sobre procesos técnicos, marcas, tecnología, diseños, equipos, métodos, prácticas, patentes, etcétera, utilizados por <span style="font-weight: bold;"> “LA EMPRESA”</span> conectados con sus actividades, misma que no está disponible a terceros.  En este contexto, las partes reconocen que dicha información es considerada como secreta y confidencial,  ya sea que se encuentre en documento, registro, medio electrónico, medio impreso, medio acústico, audiovisual, información verbal o de cualquier otra índole (en adelante identificada como la “Información Confidencial”) y por lo tanto,<span style="font-weight: bold;"> “EL PROVEEDOR”</span> se obliga a mantener en estricto secreto la Información Confidencial y a no divulgarla y/o revelar, utilizar, disponer, reproducir, copiar, compartir o de alguna otra forma hacer uso de dicha Información Confidencial bajo ninguna circunstancia, y en ningún tiempo, que no sea específicamente para lo relacionado con el proceso de interoperabilidad en el que se encuentre participando.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">SEGUNDA. DE LOS COLABORADORES DE “EL PROVEEDOR”.</span>
+						<p><span style="font-weight: bold;">“EL PROVEEDOR”</span> se obliga por medio de este “CONVENIO” a que en ningún momento y bajo ninguna circunstancia, directa o indirectamente, publicará, comunicará, divulgará o revelará a personas ajenas la “Información Confidencial” propiedad de <span style="font-weight: bold;"> “LA EMPRESA”</span>; de igual forma se obliga a no explotar en beneficio propio, por si o por tercera persona, dicha “Información Confidencial”.</p>
+						<p><span style="font-weight: bold;">“EL PROVEEDOR”</span> conviene en que la obligación de confidencialidad que asume en el presente convenio frente a <span style="font-weight: bold;"> “LA EMPRESA” </span> , se hará extensiva sin limitación a cualquiera de sus clientes, empleados, asesores legales, financieros, contables, consultores, familiares consanguíneos o por afinidad hasta el tercer grado, y en general a cualquier colaborador de “EL PROVEEDOR”, que por motivo de su trabajo llegue a tener acceso a la información confidencial de “LA EMPRESA”.</p>
+						<p>Será causa de rescisión instantánea de este instrumento, sin responsabilidad para <span style="font-weight: bold;"> “LA EMPRESA”</span> si cualquiera de las personas mencionadas en el párrafo inmediato anterior, llegaran a violar dicho principio de confidencialidad.</p>
+						<p>En caso de que <span style="font-weight: bold;"> “EL PROVEEDOR” </span> incumpla con esta obligación, se hará acreedor a las penas establecidas en los artículos 82 a 86, 213 fracciones I, IX y X, 223 de la Ley de la Propiedad Industrial, así como 210 y 211 del Código Penal para el Distrito Federal y para toda la República Mexicana en materia federal y sus correlativos de las demás entidades federativas, reservándose <span style="font-weight: bold;"> “LA EMPRESA” </span> desde este momento y de manera expresa la facultad de ejercitar las acciones penales y legales que correspondan independientemente de demandar el pago de daños y perjuicios.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">TERCERA. DE LA DEVOLUCIÓN DE LA “INFORMACIÓN CONFIDENCIAL”.</span>
+						<p><span style="font-weight: bold;">“EL PROVEEDOR”</span> se obliga por medio de este “CONVENIO” a devolver a <span style="font-weight: bold;"> “LA EMPRESA”</span> de manera inmediata y a la firma del presente “CONVENIO” toda aquella “Información Confidencial” que previamente se le haya proporcionado y que se encuentre en su poder, obligándose a destruir todas las copias que hubiere hecho con motivo de las actividades a realizar al amparo de las relaciones contractuales que existieren o hubiesen existido entre las partes.</p>
+						<p>Las partes no podrán bajo ninguna circunstancia retener o conservar la “Información Confidencial” o copia de la misma.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">CUARTA. DE LA VIGENCIA.</span>
+						<p>Ambas partes de común acuerdo establecen que la vigencia del presente “CONVENIO” es de consumación inmediata respecto a la devolución de la “información confidencial” pero sin plazo de vencimiento respecto a las obligaciones de<span style="font-weight: bold;"> “EL PROVEEDOR”</span> a mantener el sigilo respecto de la “Información Confidencial” que <span style="font-weight: bold;"> “LA EMPRESA”</span> , le haya proporcionado, ya que esta subsistirá indefinidamente con toda fuerza y vigor aún después de terminado o vencido el plazo de Ley  que pudiese tener el presente “CONVENIO”.</p>
+					</p>
+					<br></br>
+					
+					<p>
+						<span style="font-weight: bold;">QUINTA. DE LAS OBLIGACIONES DE “EL PROVEEDOR”.</span>
+						<p><span style="font-weight: bold;"> “EL PROVEEDOR” </span> manifiesta que independientemente de las demás obligaciones que corren a su cargo o dentro del presente “CONVENIO”, también se obliga a:</p>
+						<p>No fotocopiar o reproducir por cualquier otro medio, la “Información Confidencial” que por escrito le haya proporcionado <span style="font-weight: bold;"> “LA EMPRESA”</span> a no ser que ésta última haya otorgado su consentimiento para ello. </p>
+						<p>No deberá revelar esta información a ningún tercero que sea ajeno al presente convenio. </p>
+						<p>Mantener la “Información Confidencial” que le sea revelada bajo el mismo nivel de cuidado que le aplicaría a su propia “Información Confidencial”.</p>
+						<p>Tomar las medidas necesarias y asegurarse de que el personal que tenga necesidad o que requiera conocer la “Información Confidencial”, conozca los términos y condiciones de los compromisos de confidencialidad asumidos por <span style="font-weight: bold;"> “EL PROVEEDOR” </span> mediante este “CONVENIO”.</p>
+						<p>En caso de existir alguna duda en cuanto si alguna información es confidencial o no, deberá ser tratada como “Información Confidencial” y, por ende, estará sujeta a los términos del presente convenio. </p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">SEXTA. DE LAS OBLIGACIONES DE “LA EMPRESA”.</span>
+						<p><span style="font-weight: bold;"> “LA EMPRESA”</span> , se obliga a recibir correctamente a <span style="font-weight: bold;"> “EL PROVEEDOR”</span> toda aquella información que ésta entregue, a efecto de analizarla en beneficio de sus necesidades y las de<span style="font-weight: bold;"> “EL PROVEEDOR”.</span></p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">SÉPTIMA. DE LAS EXCEPCIONES A LAS OBLIGACIONES DE “EL PROVEEDOR”.</span>
+						<p>La siguiente información no estará sujeta a las obligaciones de confidencialidad:</p>
+						<p>Cualquier información que hubiere sido legítimamente conocida y obtenida por la parte receptora, así como documentación que de la misma manera formara parte de sus archivos con anterioridad a la celebración del Contrato de Prestación de Servicios Profesionales;</p>
+						<p>Cualquier información que regularmente fuere del conocimiento público;</p>
+						<p>Cualquier información que eventualmente se convierta del dominio público y que hubiere sido legítimamente revelada, más no como resultado de violación o incumplimiento de la parte receptora respecto de sus obligaciones aquí adquiridas.</p>
+					</p>
+					<br></br>
+
+					<p>	
+						<span style="font-weight: bold;">OCTAVA. DE OTROS CONTRATOS.</span>
+						<p>Las partes de común acuerdo establecen que la celebración del presente “CONVENIO” no implica promesa, novación o acuerdo de celebración de un nuevo contrato; ni tampoco significa la autorización para que una parte efectúe alguna compraventa o celebre otro tipo de contrato con terceras personas, a nombre de la otra parte.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">NOVENA. DE LA NO CESIÓN DE DERECHOS.</span>
+						<p>Las partes de común acuerdo establecen que el presente “CONVENIO” no implica el otorgamiento de una licencia de uso de marca, o cesión de derechos de autor, respecto de la “información confidencial” propiedad de<span style="font-weight: bold;"> “LA EMPRESA” </span> ni tampoco el uso o cesión de cualquier otro derecho de propiedad intelectual que corresponda a <span style="font-weight: bold;"> “LA EMPRESA”</span> .</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA. DE LA NO CESIÓN DEL “CONVENIO”.</span>
+						<p><span style="font-weight: bold;">“EL PROVEEDOR”</span> conviene en que no podrá ceder o traspasar total o parcialmente los derechos y obligaciones que le corresponden dentro del presente “CONVENIO”, si no es mediante el consentimiento previo y por escrito de <span style="font-weight: bold;"> “LA EMPRESA”</span> . </p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA PRIMERA. DE LOS DERECHOS DE AUTOR O DE PROPIEDAD INDUSTRIAL </span>
+						<p><span style="font-weight: bold;">“EL PROVEEDOR”</span> se obliga a no violar los derechos de propiedad intelectual y/o industrial de <span style="font-weight: bold;"> “LA EMPRESA”</span>, que estén o no relacionados con el objeto de este Convenio, los cuales, salvo pacto en contrario, sólo se podrán utilizar para todo aquello que favorezca al cumplimiento de las obligaciones que asume al amparo del presente documento, sin que por este hecho <span style="font-weight: bold;"> “EL PROVEEDOR”</span> adquiera el carácter de licenciatario, cesionario o beneficiario de <span style="font-weight: bold;"> “LA EMPRESA”</span> .</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA SEGUNDA. DE LOS LITIGIOS Y/O JUICIOS.</span>
+						<p>Las partes de común acuerdo establecen que:</p>
+						<p><span style="font-weight: bold;">“LA EMPRESA”</span> se obliga a que en caso de existir algún juicio en contra de <span style="font-weight: bold;"> “EL PROVEEDOR”</span> , por parte de algún cliente de <span style="font-weight: bold;"> “LA EMPRESA” </span> por concepto del uso o titularidad de la información que al efecto le proporcione<span style="font-weight: bold;"> “LA EMPRESA”</span> a <span style="font-weight: bold;"> “EL PROVEEDOR”</span> , será <span style="font-weight: bold;"> “LA EMPRESA”</span> , quien tendrá la responsabilidad y el control sobre dicho juicio.</p>
+						<p>En caso de existir algún juicio en contra de<span style="font-weight: bold;"> “LA EMPRESA”</span> , por parte de alguno de sus clientes y por concepto del uso indebido que<span style="font-weight: bold;"> “EL PROVEEDOR”</span> dé a la información que previamente le haya proporcionado <span style="font-weight: bold;"> “LA EMPRESA”</span> , será <span style="font-weight: bold;"> “EL PROVEEDOR”</span> quien tendrá la responsabilidad de reparar el daño, indemnizar, pagar daños y perjuicios, así como cumplir con las obligaciones que le sean impuestas en dicho juicio, teniendo la obligación de apersonarse en la litis.</p>
+						<p><span style="font-weight: bold;">“LA EMPRESA”</span> se obliga a dar aviso a<span style="font-weight: bold;"> “EL PROVEEDOR” </span> en un término que no excederá de 48 horas, después de haber recibido cualquier notificación judicial o extrajudicial en relación a juicios entablados en su contra; comprometiéndose de igual forma <span style="font-weight: bold;"> “LA EMPRESA” </span> a cooperar con <span style="font-weight: bold;"> “EL PROVEEDOR” </span> en todo lo necesario y a proporcionar a este la información y documentos que se requieran para la correcta y oportuna defensa del juicio respectivo, incluyendo el otorgamiento de poderes a favor de las personas que <span style="font-weight: bold;"> “LA EMPRESA” </span> designe para hacerse cargo del manejo del litigio respectivo; corriendo los gastos y honorarios que se generen por cuenta y cargo de<span style="font-weight: bold;"> “EL PROVEEDOR”</span> .</p>
+						<p><span style="font-weight: bold;">“EL PROVEEDOR”</span> desde este momento se obliga a que en caso de no cumplir con las obligaciones que se establecen a su cargo en esta cláusula, y que derivado de su negativa u omisión,<span style="font-weight: bold;"> “LA EMPRESA”</span> llegará a un arreglo o convenio judicial o extrajudicial; respecto de juicio, reclamación o queja judicial o extrajudicial; en consecuencia,<span style="font-weight: bold;"> “EL PROVEEDOR”</span> deberá rembolsar el importe del gasto realizado por<span style="font-weight: bold;"> “LA EMPRESA” </span> dentro del término de cinco días hábiles siguientes, a aquel en que <span style="font-weight: bold;"> “LA EMPRESA”</span>, realice dicho pago, ya que de lo contrario dicho importe devengará un interés moratorio a razón del 3% mensual, durante todo el tiempo que se constituya en mora y hasta el día en que se realice el pago. Ambas partes convienen en dejarse siempre a salvo y en paz, por los conceptos que en esta cláusula se prevén.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA TERCERA. DE LA INDEMNIZACIÓN.</span>
+						<p><span style="font-weight: bold;">“EL PROVEEDOR”</span> se obliga a que en caso de incumplimiento de las obligaciones que se encuentran a su cargo en este “CONVENIO”, deberá indemnizar a<span style="font-weight: bold;"> “LA EMPRESA”</span>, hasta por el monto del daño causado, o en su defecto, por el valor total del Convenio que lleguen a celebrar, no constituyendo lo anterior una renuncia a los posibles derechos de reclamación por responsabilidades o cualquier otra sanción legal a que pudiere haber lugar.<span style="font-weight: bold;"> “EL PROVEEDOR”</span> ; asimismo, se compromete a indemnizar y a sacar en paz y salvo a<span style="font-weight: bold;"> “LA EMPRESA” </span> en caso de posibles reclamaciones derivadas de la divulgación a terceros de la información a la que tenga acceso.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA CUARTA. DE LA NO CONTRATACIÓN CON TERCEROS.</span>
+						<p>Durante la vigencia de este “CONVENIO”,<span style="font-weight: bold;"> “EL PROVEEDOR”</span> , sus colaboradores, clientes, empleados, consultores y familiares consanguíneos o por afinidad hasta el tercer grado, se obligan a no iniciar ningún tipo de relación contractual o laboral con alguna otra persona, sea ésta física o jurídica, que desarrolle las mismas actividades de<span style="font-weight: bold;"> “LA EMPRESA”</span> y que represente competencia directa para esta última.</p>
+						<p>La obligación estipulada en el párrafo anterior aplicará de igual manera por el término de dos años, contados a partir de la terminación de este “CONVENIO”.</p>
+						<p>En caso de incumplimiento a lo estipulado en la presente cláusula por parte de<span style="font-weight: bold;"> “EL PROVEEDOR”</span> , éste deberá pagar a<span style="font-weight: bold;"> “LA EMPRESA”</span> la cantidad de $50,000.00 M.N. (Cincuenta mil Pesos, Cero Centavos, Moneda Nacional), quien a su vez se reserva el derecho de iniciar las acciones legales que correspondan.</p>
+					</p>
+					<br></br>
+					
+					<p>
+						<span style="font-weight: bold;">DÉCIMA QUINTA. DE LAS NOTIFICACIONES.</span>
+						<p>Las partes manifiestan que para cualquier notificación relacionada con el presente “CONVENIO”, las mismas se deberán realizar de manera fehaciente y por escrito. Dichas notificaciones y cualquier otro documento se considerarán debidamente notificado a la Parte correspondiente cuando: (I) sean entregadas personalmente; (II) sean enviados por fax o correo electrónico y éstos sean confirmados; o (III) cuando sean enviados por mensajería o por correo certificado o registrado dirigido a la Parte que se está notificando a la dirección señalada en su respectivo domicilio, el cual ha quedado señalado en el capítulo de declaraciones del presente “Convenio.</p>
+						<p>En caso de que cualquiera de las partes modifique su domicilio, deberá notificarlo a la otra parte por escrito en un término de cinco días hábiles anteriores a aquel en que deba ocurrir dicho cambio de domicilio, en la inteligencia que de no hacerlo, las notificaciones que se lleguen a realizar en el último domicilio que se tenga registrado tendrán plena validez y surtirán sus efectos.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA SEXTA. DE LAS DISPOSICIONES LEGALES.</span>
+						<p>Las partes manifiestan que toda vez que<span style="font-weight: bold;"> “EL PROVEEDOR”</span> tuvo acceso a la “Información Confidencial” propiedad de<span style="font-weight: bold;"> “LA EMPRESA”</span> ,<span style="font-weight: bold;"> “EL PROVEEDOR”</span> se obliga a acatar lo que al respecto establece la Ley de Propiedad Industrial respecto de abstenerse de revelar sin causa justificada y sin consentimiento la “Información Confidencial” a ella entregada. Asimismo, manifiesta que tampoco usará dicha “información confidencial”, aun cuando le sea proporcionada por un tercero que tenga o no autorización para proporcionar la misma, en cuyo caso se compromete a notificar a<span style="font-weight: bold;"> “LA EMPRESA”</span> de tal situación, dentro de un plazo que no excederá de 48 horas a partir de que tenga conocimiento de lo anterior.</p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DECIMA SÉPTIMA. RELACIÓN ENTRE LAS PARTES.</span>
+						<p>Queda expresamente establecido que de ninguna manera el presente “Convenio” será considerado o interpretado para crear una coinversión, sociedad, representación, asociación, empresa conjunta, franquicia, relación de agencia o comisión entre las partes para ningún propósito; ya que el presente “Convenio” no les otorga derecho o autoridad alguna para asumir o crear obligación o responsabilidad expresa o tácita, a nombre o por cuenta de la otra, ya que la relación legal que existen entre ellas, es la de dos partes independientes, vinculadas únicamente por este “Convenio”.</p>
+					</p>
+					<br></br>
+					
+					<p>
+						<span style="font-weight: bold;">DÉCIMA OCTAVA. DE LAS MODIFICACIONES.</span>
+						<p>Las partes establecen que todas aquellas modificaciones o reformas que se hagan al presente “CONVENIO” deberán ser firmadas por las partes, ya que de no ser así las mismas no tendrán validez. </p>
+					</p>
+					<br></br>
+
+					<p>
+						<span style="font-weight: bold;">DÉCIMA NOVENA. ACUERDO TOTAL.</span>
+						<p>Las partes acuerdan que el presente “CONVENIO” constituye el único y total acuerdo entre ellas, con relación a su objeto, y que los términos y condiciones aquí pactados dejan sin efecto alguno las discusiones, acuerdos, compromisos o negociaciones anteriores a la firma del mismo.</p>
+					</p>
+					<br></br>
+
+					<p>
+                        <span style="font-weight: bold;">VIGÉSIMA. DE LAS BASES DEL “CONVENIO”.</span>
+                        <p>Las partes expresamente manifiestan, reconocen y aceptan que han celebrado este “CONVENIO” con base en las declaraciones que aparecen al principio del mismo y las cuales se tienen aquí por reproducidas como si a la letra se insertasen en obvio de repeticiones.</p>
+						<p>Asimismo, manifiestan que este “CONVENIO” contiene todo lo pactado entre ellas respecto a su objeto, por lo que no podrá ser renunciado, remitido, abandonado, cambiado o enmendado en modo alguno, excepto por aviso por escrito que ambas partes legalmente suscriban.</p>
+                    </p>
+                    <br></br>
+
+					<p>
+                        <span style="font-weight: bold;">VIGÉSIMA PRIMERA. INDEPENDENCIA DE LAS DISPOSICIONES.</span>
+                        <p>Las partes establecen que en el caso de que alguna de las cláusulas del presente “Convenio”, sea declarada nula o inejecutable en cualquier grado, tal declaración no afectara el resto de este “Convenio”, el que continuara siendo válido y ejecutable conforme a la ley y la equidad.</p>
+                    </p>
+                    <br></br>
+					
+					<p>
+                        <span style="font-weight: bold;">VIGÉSIMA SEGUNDA. DE LOS TÍTULOS DE LAS CLÁUSULAS.</span>
+                        <p>Las partes de común acuerdo establecen que los títulos de las cláusulas de que se integra este “CONVENIO”, son solamente para referencia de las partes, por lo que no modifican, ni limitan de modo alguno los términos, condiciones, disposiciones y consecuencias legales en ellas establecidas. </p>
+                    </p>
+                    <br></br>
+
+					<p>
+                        <span style="font-weight: bold;">VIGÉSIMA TERCERA. DEL CONSENTIMIENTO.</span>
+                        <p>Las partes manifiestan que en la celebración del presente “CONVENIO” no existe error, dolo mala fe, coacción, equivocación, lesión, violencia, ignorancia, inexperiencia, lucro excesivo o incapacidad de alguna de las partes, ni cualquier otro vicio de la voluntad que pueda invalidarlo; por lo que renuncian expresamente a rescindirlo por cualquiera de estas causas, así como también al plazo que la ley les concede para ejercitar cualquier acción al respecto.</p>
+                    </p>
+                    <br></br>
+
+					<p>
+                        <span style="font-weight: bold;">VIGÉSIMA CUARTA. DE LA JURISDICCIÓN.</span>
+                        <p>Las partes manifiestan que para la interpretación, cumplimiento y ejecución del presente “CONVENIO”, así como para todo lo no previsto en el mismo, se someten expresamente a las leyes del Estado de Puebla y a las leyes federales aplicables por SUPLETORIEDAD, así como a la competencia y jurisdicción de los tribunales de la Ciudad de Puebla, Puebla, ubicados en Ciudad Judicial, en el Municipio de San Andrés Cholula, Puebla; renunciando a cualquier otro fuero que por razón de sus domicilios presentes o futuros pudieran corresponderles.</p>
+                    </p>
+                    <br></br>
+					
+					<p>
+						<p>Leído que fue el presente “CONVENIO” y enteradas y conformes las partes con su contenido, alcance, valor y fuerza legal, lo firman de conformidad todos los que en el intervinieron, en la Ciudad de Puebla, Puebla, al día <span style="font-weight: bold;"> <span t-esc="datetime.datetime.now().strftime('%d-%m-%Y')"></span></span> </p>
+					</p>
+					<br></br>
+
+					<center>
+						<table>
+							<tr>
+								<td>
+								<center>
+								<p><span style="font-weight: bold;">“LA EMPRESA”</span></p>
+								<br></br>
+								<br></br>
+								<br></br>
+								<p>____________________</p>
+								<p><span style="font-weight: bold;">Jose Luis Espejel Estrada</span></p>
+								<p>Apoderado Legal de</p>
+								<p><span style="font-weight: bold;">“3MIND STRATEGIC”, S.A DE C.V</span></p>
+								</center>
+								</td>
+								
+								<td>
+								<center>
+                                <p>“EL PROVEEDOR”</p>
+								<br></br>
+                                <p></p>
+                                <br></br>
+                                <br></br>
+                                <br></br>
+                                <p>____________________</p>
+                                <p></p>
+                                <p><span style="font-weight: bold;"><span t-field="doc.employee_id"/></span></p>
+								</center>
+                                </td>
+							</tr>
+						</table>
+					</center>
+ 				</span>
+			</div>
+            </h4>
+
+<!--////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+	</div>
+</t>
+</template>
+
+
+<template id="report_bajaprivacity">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="doc">
+            <t t-call="employee_bajaprivacity_report.report_bajaprivacity_document" />
+        </t>
+    </t>
+</template>
+</data>
+</openerp>

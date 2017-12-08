@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+        <report
+            id="report_employee_contraindef"
+            string="Generar Contrado Indeterminado"
+            model="hr.contract"
+            report_type="qweb-pdf"
+            file="employee_contraindef_report.report_contraindef"
+            name="employee_contraindef_report.report_contraindef"
+        />
+    </data>
+</openerp>
